@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Website Redesign!"
 date:   2016-02-18 13:05:49 -0500
 categories: jekyll update
 ---

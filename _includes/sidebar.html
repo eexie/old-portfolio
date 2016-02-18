@@ -1,0 +1,23 @@
+<div id="theSidebar" class="sidebar">
+
+    <a href="{{ site.baseurl }}/"><h1><span>EMMA</span>XIE</h1></a>
+    <nav class="related">
+          <a class="current-demo" href="index.html">1</a>
+          <a href="index2.html">2</a>
+          <a href="index2.html">3</a>
+        </nav>
+    <nav class="site-nav">
+      
+
+      <div class="trigger">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</div>

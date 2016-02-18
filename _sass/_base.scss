@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -45,19 +47,6 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
 }
 
 
@@ -93,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-
+    outline: none;
     &:visited {
         color: darken($brand-color, 15%);
     }
@@ -101,6 +90,7 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: underline;
+        outline:none;
     }
 }
 
@@ -204,3 +194,54 @@ pre {
         }
     }
 }
+
+
+/* Sidebar */
+.sidebar {
+  text-align: center;
+  background: $grey-color;
+  z-index: 1000;
+  position: fixed;
+  width: 48px;
+  max-width: 100%;
+  height: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 2em 1em;
+}
+
+.sidebar h1 {
+  margin: 0.75em 0 0;
+  font-size: 1em;
+  line-height: 1;
+  color:#fff;
+  font-family: "Courier New", serif;
+  font-weight: 600;
+}
+
+.sidebar h1 span {
+  display: block;
+}
+
+.related {
+  margin-top:20vh;
+  font-size: 0.85em;
+  padding-bottom: 1em;
+}
+
+.related h3 {
+  margin: 3em 0 0.5em 0;
+  font-size: 0.95em;
+}
+
+.related a {
+  display: block;
+  color: #fff;
+}
+
+.related a:hover,
+.related a:focus {
+  color: #414741;
+}
+

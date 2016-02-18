@@ -5,16 +5,17 @@
 
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    {% include sidebar.html %}
+    <div class="container">
+    <div class="main">
+     
         {{ content }}
-      </div>
+     
     </div>
-
-    {% include footer.html %}
-
+  </div>
+    <!--{% include footer.html %}-->
+    <script src="/js/classie.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 
 </html>

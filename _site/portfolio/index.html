@@ -12,15 +12,34 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/portfolio/">
   <link rel="alternate" type="application/rss+xml" title="EMMA XIE" href="http://yourdomain.com/feed.xml">
+  <link rel="icon" href="/images/logo.png" type="image/icon">
   <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
   <script src="/js/modernizr.custom.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); 
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 700); // The number here represents the speed of the scroll in milliseconds
+            return false;
+          }
+        }
+      });
+    });
 
+  </script>
 </head>
 
 	<body>
 		<div id="theSidebar" class="sidebar">
 
-    <a href="/"><h1><span>EMMA</span>XIE</h1></a>
+    <a href="/#header"><h1><span>EMMA</span>XIE</h1></a>
     <nav class="related">
       <div class="menu-item">
         <a href="#"><img src="/images/menu-icon.png"></a>
@@ -29,26 +48,26 @@
 
             <h2> <br>EMMA XIE<br></h2>
             <hr>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">ABOUT</a>
-            <a href="#">RESUME</a>
-            <a href="#">BLOG</a>
-            <p><i>emma.xie@uwaterloo.ca</i></p>
+            <a href="/portfolio/">PORTFOLIO</a>
+            <a href="/#about">ABOUT</a>
+            <a href="/resume.pdf" target="_blank">RESUME</a>
+            <a href="/blog/">BLOG</a>
+            <p class="email"><i>emma.xie@uwaterloo.ca</i></p>
         </div>
       </div>
       <div class="menu-item">
-        <a href="#"><img src="/images/portfolio-icon.png"/></a>
+        <a href="/portfolio/"><img src="/images/portfolio-icon.png"/></a>
         <div class="sub-menu">
             
             <img src="/images/sidebar-portfolio.png"></a>
 
             <h2> <br>PORTFOLIO<br></h2>
             <hr>
-            <a href="#">HARDWARE</a>
-            <a href="#">SOFTWARE</a>
-            <a href="#">DESIGN</a>
-            <a href="#" style="margin-left:38px">ILLUSTRATION</a>
-            <p><i>emma.xie@uwaterloo.ca</i></p>
+            <a href="/portfolio/#hardware">HARDWARE</a>
+            <a href="/portfolio/#software">SOFTWARE</a>
+            <a href="/portfolio/#design">DESIGN</a>
+            <a href="/portfolio/#illustration" >ILLUSTRATION</a>
+            <p class="email"><i>emma.xie@uwaterloo.ca</i></p>
             
         </div>
       </div>
@@ -58,14 +77,11 @@
             <img src="/images/sidebar-logo.png"></a>
 
             <h2> <br>CONTACT<br></h2>
-
+            <p><i>Say hi!</i></p>
             <hr>
             
-            <p style="position:relative; margin:auto;"><i>emma.xie@uwaterloo.ca</i></p>
-            <a href="#">HARDWARE</a>
-            <a href="#">SOFTWARE</a>
-            <a href="#">DESIGN</a>
-            <a href="#">ILLUSTRATION</a>
+            <a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i><br><br><br></p>
+            <a href="http://devpost.com/exme">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie">LINKEDIN</a> | <a href="https://twitter.com/EXME_X">TWITTER</a>
 
         </div>
       </div>
@@ -215,7 +231,7 @@
 						</div>
 					</a>
 <!--DESIGN-->
-					<div class="grid__title" id = "hardware">
+					<div class="grid__title" id = "design">
 						<h2 class="title title--preview">Graphic Design</h2>
 						<div class="loader"></div>
 						<span class="category">Various design work, including web design, product design, branding</span>

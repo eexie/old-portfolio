@@ -13,9 +13,28 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/">
   <link rel="alternate" type="application/rss+xml" title="EMMA XIE" href="http://yourdomain.com/feed.xml">
+  <link rel="icon" href="/images/logo.png" type="image/icon">
   <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
   <script src="/js/modernizr.custom.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); 
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 700); // The number here represents the speed of the scroll in milliseconds
+            return false;
+          }
+        }
+      });
+    });
 
+  </script>
 </head>
 
 
@@ -23,7 +42,7 @@
 
     <div id="theSidebar" class="sidebar">
 
-    <a href="/"><h1><span>EMMA</span>XIE</h1></a>
+    <a href="/#header"><h1><span>EMMA</span>XIE</h1></a>
     <nav class="related">
       <div class="menu-item">
         <a href="#"><img src="/images/menu-icon.png"></a>
@@ -32,26 +51,26 @@
 
             <h2> <br>EMMA XIE<br></h2>
             <hr>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">ABOUT</a>
-            <a href="#">RESUME</a>
-            <a href="#">BLOG</a>
-            <p><i>emma.xie@uwaterloo.ca</i></p>
+            <a href="/portfolio/">PORTFOLIO</a>
+            <a href="/#about">ABOUT</a>
+            <a href="/resume.pdf" target="_blank">RESUME</a>
+            <a href="/blog/">BLOG</a>
+            <p class="email"><i>emma.xie@uwaterloo.ca</i></p>
         </div>
       </div>
       <div class="menu-item">
-        <a href="#"><img src="/images/portfolio-icon.png"/></a>
+        <a href="/portfolio/"><img src="/images/portfolio-icon.png"/></a>
         <div class="sub-menu">
             
             <img src="/images/sidebar-portfolio.png"></a>
 
             <h2> <br>PORTFOLIO<br></h2>
             <hr>
-            <a href="#">HARDWARE</a>
-            <a href="#">SOFTWARE</a>
-            <a href="#">DESIGN</a>
-            <a href="#" style="margin-left:38px">ILLUSTRATION</a>
-            <p><i>emma.xie@uwaterloo.ca</i></p>
+            <a href="/portfolio/#hardware">HARDWARE</a>
+            <a href="/portfolio/#software">SOFTWARE</a>
+            <a href="/portfolio/#design">DESIGN</a>
+            <a href="/portfolio/#illustration" >ILLUSTRATION</a>
+            <p class="email"><i>emma.xie@uwaterloo.ca</i></p>
             
         </div>
       </div>
@@ -61,14 +80,11 @@
             <img src="/images/sidebar-logo.png"></a>
 
             <h2> <br>CONTACT<br></h2>
-
+            <p><i>Say hi!</i></p>
             <hr>
             
-            <p style="position:relative; margin:auto;"><i>emma.xie@uwaterloo.ca</i></p>
-            <a href="#">HARDWARE</a>
-            <a href="#">SOFTWARE</a>
-            <a href="#">DESIGN</a>
-            <a href="#">ILLUSTRATION</a>
+            <a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i><br><br><br></p>
+            <a href="http://devpost.com/exme">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie">LINKEDIN</a> | <a href="https://twitter.com/EXME_X">TWITTER</a>
 
         </div>
       </div>
@@ -104,8 +120,184 @@
      
         <div class="home">
 
-  
-  <ul class="post-list">
+  <div class="header" id="header">
+    <div class="header-inner">
+      <img src="/images/logo.png">
+      <h1>EMMA XIE</h1>
+      <h3 style="color:#76a3b3"><strong>ENGINEER • DESIGNER</strong></h3>
+      <hr width="150px" style="margin:20px auto; margin-bottom:80px;">
+      <a class="action" href="#portfolio">PORTFOLIO</a>
+      <a class="action" href="/resume.pdf" target="_blank">&nbsp;&nbsp;RESUME&nbsp;&nbsp;</a>
+    </div>
+  </div> 
+  <div class="section" id="portfolio">
+    <h2>
+          <h2 class="title" href="#">PORTFOLIO</h2>
+        </h2>
+      <div id="theGrid">
+          <section class="grid">
+            
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="#">
+              <h2 class="title title--preview">Hope for Amy Walters</h2>
+              <div class="loader"></div>
+              <span class="category">Life &amp; Death</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/4.png" alt="author04" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="#">
+              <h2 class="title title--preview">Hope for Amy Walters</h2>
+              <div class="loader"></div>
+              <span class="category">Life &amp; Death</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/4.png" alt="author04" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="#">
+              <h2 class="title title--preview">Hope for Amy Walters</h2>
+              <div class="loader"></div>
+              <span class="category">Life &amp; Death</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/4.png" alt="author04" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="/portfolio/" id = "hardware">
+              <h2 class="title title--preview"><br><br>View All</h2>
+              <div class="loader"></div>
+              <span class="category">&rarr;<br><br><br><br></span>
+              
+            </a>
+          </section>
+      </div>
+      
+    </div>  
+  <div class="section" id="about">
+    <h2>
+          <h2 class="title" href="#">ABOUT</h2>
+        </h2>
+        <div class="about">
+          <div class="about-inner">
+            <div class="image" style="background-color:#536263; height:300px; width:100%"></div>
+            <div class="side text">
+              <p>Polaroid single-origin coffee cliche cred pork belly. Kinfolk pour-over banjo, asymmetrical tilde thundercats 3 wolf moon church-key irony pork belly ennui paleo waistcoat XOXO. Lo-fi church-key banjo taxidermy tumblr, marfa retro art party twee gochujang aesthetic polaroid irony bitters.</p>
+            </div>
+            <div class="side skills" style="margin-bottom:50px;">
+              <p>Polaroid single-origin coffee cliche cred pork belly. Kinfolk pour-over banjo, asymmetrical tilde thundercats 3 wolf moon church-key irony pork belly ennui paleo waistcoat XOXO. Lo-fi church-key banjo taxidermy tumblr, marfa retro art party twee gochujang aesthetic polaroid irony bitters.</p>
+            </div>
+          </div>
+          <a class="action" href="/resume.pdf"target="_blank">&nbsp;&nbsp;VIEW RESUME&nbsp;&nbsp;</a>
+        </div>
+
+  </div> 
+  <div class="section" id="blog">
+    <h2>
+          <h2 class="title" href="#">BLOG</h2>
+        </h2>
+      <div id="theGrid" >
+          <section class="grid">
+            
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            
+            <a class="grid__item" href="http://exme.co.nf/pages/brand.html">
+              <h2 class="title title--preview">What Goes Around Comes Around</h2>
+              <div class="loader"></div>
+              <span class="category">Nutrition</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/3.png" alt="author03" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="#">
+              <h2 class="title title--preview">Hope for Amy Walters</h2>
+              <div class="loader"></div>
+              <span class="category">Life &amp; Death</span>
+              <div class="meta meta--preview">
+                <img class="meta__avatar" src="img/authors/4.png" alt="author04" /> 
+                <span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+                <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+              </div>
+            </a>
+            <a class="grid__item" href="/portfolio/" id = "hardware">
+              <h2 class="title title--preview"><br><br>View All</h2>
+              <div class="loader"></div>
+              <span class="category">&rarr;<br><br><br><br></span>
+              
+            </a>
+          </section>
+      </div>
+    </div>  
+  <div class="footer" id="contact">
+    <h2>
+          <h2 class="title" href="#">CONTACT</h2>
+          <p><i>Say hi!</i></p>
+            <hr>
+            
+            <a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i><br><br><br></p>
+            <a href="http://devpost.com/exme">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie">LINKEDIN</a> | <a href="https://twitter.com/EXME_X">TWITTER</a>
+        </h2>
+  </div> 
+
+
+
+  <!--<ul class="post-list">
     
       <li>
         <span class="post-meta">Feb 18, 2016</span>
@@ -115,7 +307,7 @@
         </h2>
       </li>
     
-  </ul>
+  </ul>-->
 
   
 

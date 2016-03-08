@@ -72,8 +72,16 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    font-family: $title-font-family;
+    margin:0;
 }
-
+h1{
+  font-size:54px;
+  line-height: 100%;
+}
+h2{
+  font-size:32px;
+}
 
 
 /**

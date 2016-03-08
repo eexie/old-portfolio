@@ -355,7 +355,7 @@ button:focus {
 .related .menu-item .sub-menu {
   position: absolute;
   z-index: 1;
-  left: -40vw;
+  left: -100vw;
   top: 0px;
   opacity: 0;
   width: 230px;

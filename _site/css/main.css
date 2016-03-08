@@ -42,7 +42,7 @@ img {
 /**
  * Lists
  */
-ul, ol {
+ol {
   margin-left: 30px; }
 
 li > ul,
@@ -311,7 +311,6 @@ button:focus {
 .sidebar {
   text-align: center;
   background: #536263;
-  z-index: 1000;
   position: fixed;
   width: 80px;
   max-width: 100%;
@@ -319,10 +318,11 @@ button:focus {
   height: 100vh;
   top: 0;
   left: 0;
-  padding: 2em 1em; }
+  padding-left: 0;
+  padding-right: 0; }
 
 .sidebar h1 {
-  margin: 0.75em 0 0;
+  margin: 0.75em 5px 0;
   font-size: 1em;
   line-height: 1;
   color: #fff;
@@ -342,18 +342,68 @@ button:focus {
 
 .related a {
   display: block;
+  position: relative;
   color: #fff;
   width: 50%;
-  margin: 40px auto; }
+  margin: 20px auto; }
 
-.related a:hover,
-.related a:focus {
-  color: #414741; }
+.related .menu-item {
+  width: 80px;
+  padding: 0 1em;
+  margin-top: 50px; }
+
+.related .menu-item .sub-menu {
+  position: absolute;
+  z-index: 1;
+  left: -40vw;
+  top: 0px;
+  opacity: 0;
+  width: 230px;
+  height: 100vh;
+  background-color: #f2f2f2;
+  padding: 0;
+  padding-top: 10vh;
+  font-family: "Courier New", serif;
+  font-size: 22px; }
+
+.related .menu-item .sub-menu h2 {
+  font-size: 28px; }
+
+.related .menu-item .sub-menu img {
+  width: 70px; }
+
+.related .menu-item .sub-menu hr {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10vh; }
+
+.related .menu-item .sub-menu a {
+  color: #536263;
+  -webkit-transition: -webkit-color 0.2s;
+  transition: color 0.2s; }
+
+.related .menu-item .sub-menu a:hover {
+  color: #76a3b3; }
+
+.related .menu-item .sub-menu p {
+  font-size: 14px;
+  color: #76a3b3;
+  position: absolute;
+  bottom: 50px;
+  left: 25px;
+  font-weight: 500; }
+
+.related .menu-item:hover .sub-menu {
+  left: 80px;
+  opacity: 1; }
+
+.related .menu-item .contact {
+  width: 40vw;
+  min-width: 320px; }
 
 /* Main content */
 .main {
   position: relative;
-  z-index: 50;
   margin-left: 80px; }
 
 /* Grid container */
@@ -393,54 +443,6 @@ button:focus {
 .top-bar__headline {
   margin: 0;
   font-size: 0.75em; }
-
-/* Menu button for toggling the sidebar (appears on small screen) */
-.menu-toggle {
-  position: fixed;
-  z-index: 100;
-  display: block;
-  width: 25px;
-  height: 25px;
-  top: 14px;
-  left: 14px;
-  cursor: pointer;
-  background: none;
-  border: none;
-  display: none;
-  margin: -2px 15px 0 0; }
-
-.menu-toggle span {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #81c483;
-  font-size: 0px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
-.menu-toggle span:before,
-.menu-toggle span:after {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #81c483;
-  content: ''; }
-
-.menu-toggle span:before {
-  -webkit-transform: translateY(-7px);
-  transform: translateY(-7px); }
-
-.menu-toggle span:after {
-  -webkit-transform: translateY(7px);
-  transform: translateY(7px); }
 
 /* Filter/dropdown dummy on the right */
 .filter {
@@ -512,9 +514,6 @@ button:focus {
 .grid__item:hover {
   color: #fff;
   background-color: #536263; }
-
-.grid__item *, .grid__title * {
-  z-index: 10; }
 
 /* grid item element and full content element styles */
 .title {

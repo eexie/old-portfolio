@@ -458,6 +458,14 @@ button:focus {
   padding: 0 80px;
   text-align: center; }
 
+.about .image {
+  height: 300px;
+  width: 100%;
+  background-image: url("/images/about-image.png");
+  background-size: 100%;
+  background-position: center 60%;
+  background-repeat: no-repeat; }
+
 .about .side {
   color: #536263;
   width: 50%;

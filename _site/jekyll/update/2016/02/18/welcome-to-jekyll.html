@@ -117,13 +117,19 @@
     <div class="container">
     <div class="main">
      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Website Redesign!</h1>
-    <p class="post-meta"><time datetime="2016-02-18T13:05:49-05:00" itemprop="datePublished">Feb 18, 2016</time></p>
-  </header>
-
+        <div class="topbar">
+	
+	<a href="/hardware/test.html">&larr;</a>
+	
+	
+	
+	<button onclick = "goBack()" class="close-button close-button--show"><strong>&#10005;</strong></button>
+	<script>
+		function goBack(){
+			window.history.back();
+		}
+	</script>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content" itemprop="articleBody">
     <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 

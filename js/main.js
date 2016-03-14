@@ -90,8 +90,10 @@
 
 					// reveal/load content after the last element animates out (todo: wait for the last transition to finish)
 					setTimeout(function() { loadContent(item); }, 500);
+				}, 100);
+				setTimeout(function() {
+					window.location = url; 
 				}, 1000);
-
 
 			});
 		});
@@ -154,6 +156,7 @@
 			window.addEventListener('scroll', noscroll);
 		}, 25);
 
+
 		onEndTransition(dummy, function() {
 			// add transition class 
 			classie.remove(dummy, 'placeholder--trans-in');
@@ -171,6 +174,7 @@
 
 			isAnimating = false;
 		});
+
 	}
 
 	function hideContent() {

@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Mar 2016 16:14:04 -0500</pubDate>
-    <lastBuildDate>Tue, 08 Mar 2016 16:14:04 -0500</lastBuildDate>
+    <pubDate>Mon, 14 Mar 2016 16:09:18 -0400</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2016 16:09:18 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -35,6 +35,137 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Science Expo</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Marketing design, print media, branding design, web-development
+		&lt;br /&gt;
+		June 2014-July 2015
+		&lt;br /&gt;
+		Programs: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+
+One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
+
+This July, I also redesigned and built the main website: &lt;a href=&quot;http://science-expo.org/&quot; target=&quot;_blank&quot;&gt; science-expo.org &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;/images/work/se/1.png&quot; /&gt;
+	&lt;img src=&quot;/images/work/se/2.png&quot; /&gt;
+	&lt;img src=&quot;/images/work/se/3.png&quot; /&gt;
+	&lt;img src=&quot;/images/work/se/4.png&quot; /&gt;
+	&lt;img src=&quot;/images/work/se/5.png&quot; /&gt;
+&lt;/div&gt;
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/hardware/test.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hardware/test.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Science Expo</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Marketing design, print media, branding design, web-development
+		&lt;br /&gt;
+		June 2014-July 2015
+		&lt;br /&gt;
+		Programs: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+
+One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
+
+This July, I also redesigned and built the main website: [science-expo.org][science-expo].
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;/images/se/1.png&quot; /&gt;
+	&lt;img src=&quot;/images/se/2.png&quot; /&gt;
+	&lt;img src=&quot;/images/se/3.png&quot; /&gt;
+&lt;/div&gt;
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/hardware/test-copy.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hardware/test-copy.html</guid>
+        
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Science Expo</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Marketing design, print media, branding design, web-development
+		&lt;br /&gt;
+		June 2014-July 2015
+		&lt;br /&gt;
+		Programs: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+
+One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
+
+This July, I also redesigned and built the main website: [science-expo.org][science-expo].
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;/images/se/1.png&quot; /&gt;
+	&lt;img src=&quot;/images/se/2.png&quot; /&gt;
+	&lt;img src=&quot;/images/se/3.png&quot; /&gt;
+&lt;/div&gt;
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/hardware/test-copy-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hardware/test-copy-2.html</guid>
+        
+        
+        <category>hardware</category>
         
       </item>
     

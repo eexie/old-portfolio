@@ -1,0 +1,44 @@
+---
+layout: post
+title:  Science Expo
+date:   2016-02-18 13:05:49 -0500
+categories:  hardware
+permalink:   /:categories/:title.html
+thumb: main.png
+
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Science Expo</h1>
+  </header>
+	<div class="details">
+		Marketing design, print media, branding design, web-development
+		<br>
+		June 2014-July 2015
+		<br>
+		Programs: various
+		<br>
+	</div>
+Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+
+One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year's conference was named Synapse. 
+
+This July, I also redesigned and built the main website: [science-expo.org][science-expo].
+</div>
+<div class="images">
+	<img src="{{site.baseurl}}/images/se/1.png">
+	<img src="{{site.baseurl}}/images/se/2.png">
+	<img src="{{site.baseurl}}/images/se/3.png">
+</div>
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+
+
+
+[science-expo]: http://science-expo.org/

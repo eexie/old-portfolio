@@ -403,7 +403,7 @@ button:focus {
 .related .menu-item .sub-menu .email {
   position: absolute;
   bottom: 50px;
-  left: 25px; }
+  left: 60px; }
 
 .related .menu-item:hover .sub-menu {
   left: 80px;

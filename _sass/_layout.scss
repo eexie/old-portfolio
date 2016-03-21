@@ -601,7 +601,7 @@ button:focus {
 }
 .topbar{
   background-color: $grey-color-light;
-  padding:10px 11vw;
+  padding:10px 6vw;
   width:100%;
   margin-bottom:20px;
   font-size:24px;
@@ -647,20 +647,20 @@ button:focus {
   display: block;
 }
 .images{
-  width:45%;
+  width:60%;
   padding:20px;
-  margin-left:10vw;
+  margin-left:5vw;
 }
 .images img{
   width:100%;
   margin-bottom: 20px;
 }
 .description{
-  width:43%;
+  width:35%;
   position:fixed;
   right:0px;
-  padding:10vw 50px;
-  padding-right:150px;
+  padding:5vw 50px;
+  padding-right:5vw;
 }
 .description .details{
   font-family: $title-font-family;
@@ -847,8 +847,13 @@ button:focus {
   padding: 15px 15px 10px;
   text-align: center;
   font-size: 0.75em;
-  font-weight: bold;
   cursor: default;
+}
+.page-meta span{
+  font-weight:bold;
+}
+.page-meta h3{
+  font-size:24px;
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */
@@ -1065,7 +1070,7 @@ button:focus {
   color: #ddd;
   cursor: pointer;
   pointer-events: none;
-  margin: 15px 10vw;
+  margin: 15px 5vw;
   opacity: 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;

@@ -3,15 +3,17 @@ layout: default
 ---
 <div class="topbar">
 	{% if page.previous %}
-	<a href="{{page.previous.url}}">&larr;</a>
+	<a href="{{page.previous.url}}">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	{% endif %}
 	{% if page.previous and page.next %}
-	&nbsp;&nbsp;&nbsp;&nbsp;<a class="toPort" href="{{site.baseurl}}/portfolio"><img src="{{site.baseurl}}/images/topbar-portfolio.png"/><div class="backText">BACK TO ALL</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+	
 	{% endif %}
+	<a class="toPort" href="{{site.baseurl}}/portfolio"><img src="{{site.baseurl}}/images/topbar-portfolio.png"/><div class="backText">BACK TO ALL</div></a>
 	{% if page.next %}
+	&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="{{page.next.url}}">&rarr;</a></div>
 	{% endif %}
-	<button onclick = "goBack()" class="close-button close-button--show"><strong>&#10005;</strong></button>
+	<!-- <button onclick = "goBack()" class="close-button close-button--show"><strong>&#10005;</strong></button> -->
 	<script>
 		function goBack(){
 			window.history.back();

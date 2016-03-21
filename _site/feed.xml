@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2016 16:23:38 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2016 16:23:38 -0400</lastBuildDate>
+    <pubDate>Mon, 21 Mar 2016 16:18:08 -0400</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2016 16:18:08 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -39,30 +39,169 @@
       </item>
     
       <item>
+        <title>Wirkn</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Wirkn&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Marketing design, print media, branding design, web-development
+		&lt;br /&gt;
+		Jan 2015-August 2015
+		&lt;br /&gt;
+		Programs: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+Wirkn is a mobile app startup from the heart of Toronto that provides an alternative to job search with video applications. My projects include creating general branding promotional graphics, Google and Facebook ads, hiring ads for our connected employers, social media content, newsletter design, and infographics.
+&lt;br /&gt;&lt;a href=&quot;www.wirkn.com&quot; target=&quot;_blank&quot;&gt;Wirkn Website&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://orig12.deviantart.net/5fe6/f/2015/202/1/9/1_by_eexie-d927va2.png&quot; /&gt;
+	&lt;img src=&quot;http://orig00.deviantart.net/0364/f/2015/202/2/d/2_by_eexie-d927v2a.png&quot; /&gt;
+	&lt;img src=&quot;http://orig15.deviantart.net/b0d6/f/2015/208/9/a/3_by_eexie-d9311cf.png&quot; /&gt;
+	&lt;img src=&quot;http://orig02.deviantart.net/cd40/f/2015/202/4/0/3_by_eexie-d927tky.png&quot; /&gt;
+	&lt;img src=&quot;http://orig08.deviantart.net/439e/f/2015/202/9/f/4_by_eexie-d927sk0.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/design/w.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/w.html</guid>
+        
+        <category>branding &amp; UX</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>CIK Media</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;CIK Telecom&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Marketing design, print media, branding design, mobile UX
+		&lt;br /&gt;
+		Mar 2015-August 2015
+		&lt;br /&gt;
+		Programs: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+CIK Telecom is the largest Internet and TV service provider in Canada among the Chinese-Canadian community. In 2015, CIK launched lehuo.ca, a website and mobile app providing great deals and promotions from businesses across Toronto. As an intern, I was responsible for creating ads and coupons, as well as branding material such as logos for many of these businesses. I also contributed to redesigns of the website and the mobile application.
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://orig09.deviantart.net/2ad0/f/2015/202/2/5/1_by_eexie-d92a01v.png&quot; /&gt;
+	&lt;img src=&quot;http://orig00.deviantart.net/7810/f/2015/202/d/6/2_by_eexie-d929zy1.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig06.deviantart.net/2c99/f/2015/202/4/c/3_by_eexie-d929zgi.png&quot; /&gt;
+	&lt;img src=&quot;http://orig06.deviantart.net/5bda/f/2015/202/9/2/4_by_eexie-d929zea.png&quot; /&gt;
+&lt;/div&gt;
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/design/test-copy-2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/test-copy-2.html</guid>
+        
+        <category>branding &amp; marketing</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Zed Styles</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Zed Styles&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Product Design &amp;amp; Business Branding
+		&lt;br /&gt;
+		October 2014
+		&lt;br /&gt;
+		Programs: Adobe Illustrator, Photoshop
+		&lt;br /&gt;
+		Platform: Web &amp;amp; Print
+		&lt;br /&gt;
+	&lt;/div&gt;
+ZED Styles is a new proposed small business, providing clients with detailed, and customizable zipper accessories. ZED Styles&#39; first product is ZED Pops, a zipper clip with customized graphics that covers the existing zipper tag. For the project, a business proposal was written, a prototype of the product was created, and mockups of the branding and website were designed.
+
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://fc04.deviantart.net/fs70/f/2015/007/a/b/zed1_by_eexie-d8cyeig.png&quot; /&gt;
+	&lt;img src=&quot;http://fc05.deviantart.net/fs70/f/2015/007/0/2/zed2_by_eexie-d8cye3n.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig04.deviantart.net/c767/f/2016/081/3/7/cover__1__by_eexie-d9w2gz1.png&quot; /&gt;
+	&lt;img src=&quot;http://fc04.deviantart.net/fs71/f/2015/007/a/b/zed3_by_eexie-d8cye39.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/design/styles.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/styles.html</guid>
+        
+        <category>product design</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
         <title>Science Expo</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
     &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
   &lt;/header&gt;
 	&lt;div class=&quot;details&quot;&gt;
-		Marketing design, print media, branding design, web-development
+		Web-development, marketing design, print media, branding design
 		&lt;br /&gt;
 		June 2014-July 2015
 		&lt;br /&gt;
-		Programs: various
+		Tools: Bootstrap, JQuery, Mailchimp
+		Programs: Adobe Illustrator, Photoshop
 		&lt;br /&gt;
 	&lt;/div&gt;
-Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since sumer 2014, I have been working with them as the site developer and graphic designer. 
+
+&lt;br /&gt;This July, I redesigned and built the main website (over the course of one weekend): &lt;a href=&quot;http://science-expo.org/&quot; target=&quot;_blank&quot;&gt; science-expo.org &lt;/a&gt;.
+
+
+
 
 One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
 
-This July, I also redesigned and built the main website: &lt;a href=&quot;http://science-expo.org/&quot; target=&quot;_blank&quot;&gt; science-expo.org &lt;/a&gt;
+
 &lt;/div&gt;
 &lt;div class=&quot;images&quot;&gt;
 	&lt;img src=&quot;/images/work/se/1.png&quot; /&gt;
 	&lt;img src=&quot;/images/work/se/2.png&quot; /&gt;
 	&lt;img src=&quot;/images/work/se/3.png&quot; /&gt;
-	&lt;img src=&quot;/images/work/se/4.png&quot; /&gt;
 	&lt;img src=&quot;/images/work/se/5.png&quot; /&gt;
 &lt;/div&gt;
 &lt;!-- 
@@ -75,39 +214,41 @@ This July, I also redesigned and built the main website: &lt;a href=&quot;http:/
 
 </description>
         <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
-        <link>http://yourdomain.com/hardware/test.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/hardware/test.html</guid>
+        <link>http://yourdomain.com/software/se.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/software/se.html</guid>
+        
+        <category>web &amp; branding</category>
         
         
-        <category>hardware</category>
+        <category>software</category>
         
       </item>
     
       <item>
-        <title>Science Expo</title>
+        <title>Hi-Skule</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
-    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Hi-Skule&lt;/h1&gt;
   &lt;/header&gt;
 	&lt;div class=&quot;details&quot;&gt;
-		Marketing design, print media, branding design, web-development
+		Branding Design
 		&lt;br /&gt;
-		June 2014-July 2015
+		June 2015
 		&lt;br /&gt;
-		Programs: various
+		Programs: Adobe Illustrator
 		&lt;br /&gt;
 	&lt;/div&gt;
-Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+Hi-Skule is an organziation at the University of Toronto organized by undergraduate engineering students, with the goal of introducing the discipline of engineering to high school students. I was tasked with update the HiSKULE branding, and the result is a cleaner and much more modern design, with a minimalistic hard-hat icon and bold typography. 
 
-One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
+&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://hiskule.skule.ca/home/&quot; target=&quot;_blank&quot;&gt;Hi-Skule Website&lt;/a&gt;
 
-This July, I also redesigned and built the main website: [science-expo.org][science-expo].
 &lt;/div&gt;
 &lt;div class=&quot;images&quot;&gt;
-	&lt;img src=&quot;/images/se/1.png&quot; /&gt;
-	&lt;img src=&quot;/images/se/2.png&quot; /&gt;
-	&lt;img src=&quot;/images/se/3.png&quot; /&gt;
+	&lt;img src=&quot;http://orig01.deviantart.net/f9b9/f/2016/081/4/a/cover_by_eexie-d9w2g1r.png&quot; /&gt;
+	&lt;img src=&quot;http://orig13.deviantart.net/75d6/f/2015/202/4/1/1_by_eexie-d927rkt.png&quot; /&gt;
+	&lt;img src=&quot;http://orig09.deviantart.net/0f92/f/2015/202/6/0/2_by_eexie-d927rjg.png&quot; /&gt;
 &lt;/div&gt;
+
 &lt;!-- 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
@@ -118,39 +259,43 @@ This July, I also redesigned and built the main website: [science-expo.org][scie
 
 </description>
         <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
-        <link>http://yourdomain.com/hardware/test-copy.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/hardware/test-copy.html</guid>
+        <link>http://yourdomain.com/design/hi-skule.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/hi-skule.html</guid>
+        
+        <category>branding</category>
         
         
-        <category>hardware</category>
+        <category>design</category>
         
       </item>
     
       <item>
-        <title>Science Expo</title>
+        <title>Info Brochure</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
-    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Science Expo&lt;/h1&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;CyberARTS Info Brochure&lt;/h1&gt;
   &lt;/header&gt;
 	&lt;div class=&quot;details&quot;&gt;
-		Marketing design, print media, branding design, web-development
+		Print Design
 		&lt;br /&gt;
-		June 2014-July 2015
+		October 2014
 		&lt;br /&gt;
-		Programs: various
+		Programs: Adobe Illustrator, Photoshop
+		&lt;br /&gt;
+		Dimensions: 11&quot; x 17&quot;
 		&lt;br /&gt;
 	&lt;/div&gt;
-Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
+Every year, the CyberARTS program hosts information nights about its program. This brochure was designed for the event, targetting prospective students and future applicants of the program. My design was selected for the event, out of the 60 students and 60 designs.
 
-One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year&#39;s conference was named Synapse. 
 
-This July, I also redesigned and built the main website: [science-expo.org][science-expo].
 &lt;/div&gt;
 &lt;div class=&quot;images&quot;&gt;
-	&lt;img src=&quot;/images/se/1.png&quot; /&gt;
-	&lt;img src=&quot;/images/se/2.png&quot; /&gt;
-	&lt;img src=&quot;/images/se/3.png&quot; /&gt;
+	&lt;img src=&quot;http://orig07.deviantart.net/ecb6/f/2016/081/4/c/schedule2_by_eexie-d9w2dcr.jpg&quot; /&gt;
+	&lt;img src=&quot;http://th05.deviantart.net/fs70/PRE/i/2015/014/a/0/b1_by_eexie-d8dvkg0.png&quot; /&gt;
+	&lt;img src=&quot;http://fc08.deviantart.net/fs70/f/2015/007/7/a/brochurefront_by_eexie-d8cyass.jpg&quot; /&gt;
+	&lt;img src=&quot;http://fc06.deviantart.net/fs70/f/2015/007/9/a/brochureback_by_eexie-d8cyas5.jpg&quot; /&gt;
 &lt;/div&gt;
+
 &lt;!-- 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
@@ -161,11 +306,13 @@ This July, I also redesigned and built the main website: [science-expo.org][scie
 
 </description>
         <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
-        <link>http://yourdomain.com/hardware/test-copy-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/hardware/test-copy-2.html</guid>
+        <link>http://yourdomain.com/design/cyber-brochure.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/design/cyber-brochure.html</guid>
+        
+        <category>print media</category>
         
         
-        <category>hardware</category>
+        <category>design</category>
         
       </item>
     

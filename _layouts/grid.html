@@ -7,10 +7,9 @@
 	    	<div class="main"id="theGrid" >
 				<section class="grid">
 					
-					<div class="grid__title" id = "hardware">
-						<h2 class="title title--preview">Hardware Projects</h2>
-						<div class="loader"></div>
-						<span class="category">Electrical and mechanical projects</span>
+					<div class="page-meta" id = "hardware">
+						<h3 ><b>Hardware Projects</b></h3>
+						<p>Electrical and mechanical projects</p>
 						
 					</div>
 					{% for post in site.categories.hardware %}
@@ -19,23 +18,26 @@
 						<div class="overlay">
 							<h2 class="title title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
+							<p><i> {{ post.tag}} </i></p>
 						</div>
 						
 					</a>
 					{% endfor %}
 					
 <!--SOFTWARE-->
-					<div class="grid__title" id = "software">
-						<h2 class="title title--preview">Software Projects</h2>
-						<div class="loader"></div>
-						<span class="category">Projects developed for web, mobile, and everything in between</span>
+					<div class="page-meta" id = "hardware">
+						<h3 ><b>Software Projects</b></h3>
+						<p>Projects developed for web, mobile, and everything in between</p>
+						
 					</div>
+					
 					{% for post in site.categories.software %}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">
 							<h2 class="title title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
+							<p><i> {{ post.tag}} </i></p>
 						</div>
 						
 					</a>
@@ -53,6 +55,7 @@
 						<div class="overlay">
 							<h2 class="title title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
+							<p><i> {{ post.tag}} </i></p>
 						</div>
 						
 					</a>
@@ -70,6 +73,7 @@
 						<div class="overlay">
 							<h2 class="title title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
+							<p><i> {{ post.tag}} </i></p>
 						</div>
 						
 					</a>

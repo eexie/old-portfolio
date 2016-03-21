@@ -1,35 +1,33 @@
 ---
 layout: post
-title:  Science Expo
+title:  CIK Media
 date:   2016-02-18 13:05:49 -0500
-categories:  hardware
+categories:  design
 permalink:   /:categories/:title.html
-thumb: main.png
+thumb: cik-main.png
+tag: branding & marketing
 
 ---
 
 <div class="description">
 	<header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Science Expo</h1>
+    <h1 class="post-title" itemprop="name headline">CIK Telecom</h1>
   </header>
 	<div class="details">
-		Marketing design, print media, branding design, web-development
+		Marketing design, print media, branding design, mobile UX
 		<br>
-		June 2014-July 2015
+		Mar 2015-August 2015
 		<br>
 		Programs: various
 		<br>
 	</div>
-Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since last summer, I have been working with them as the graphic designer and occasionally the IT consultant. 
-
-One of my major tasks last year was creating all of the promotional graphics for our annual flagship conference. Last year's conference was named Synapse. 
-
-This July, I also redesigned and built the main website: [science-expo.org][science-expo].
+CIK Telecom is the largest Internet and TV service provider in Canada among the Chinese-Canadian community. In 2015, CIK launched lehuo.ca, a website and mobile app providing great deals and promotions from businesses across Toronto. As an intern, I was responsible for creating ads and coupons, as well as branding material such as logos for many of these businesses. I also contributed to redesigns of the website and the mobile application.
 </div>
 <div class="images">
-	<img src="{{site.baseurl}}/images/se/1.png">
-	<img src="{{site.baseurl}}/images/se/2.png">
-	<img src="{{site.baseurl}}/images/se/3.png">
+	<img src="http://orig09.deviantart.net/2ad0/f/2015/202/2/5/1_by_eexie-d92a01v.png">
+	<img src="http://orig00.deviantart.net/7810/f/2015/202/d/6/2_by_eexie-d929zy1.jpg">
+	<img src="http://orig06.deviantart.net/2c99/f/2015/202/4/c/3_by_eexie-d929zgi.png">
+	<img src="http://orig06.deviantart.net/5bda/f/2015/202/9/2/4_by_eexie-d929zea.png">
 </div>
 <!-- {% highlight ruby %}
 def print_hi(name)

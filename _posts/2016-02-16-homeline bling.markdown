@@ -3,7 +3,7 @@ layout: post
 title:  Homeline Bling
 date:   2016-02-18 13:05:49 -0500
 categories:  software
-tag: web & branding
+tag: web & cloud communications
 permalink:   /:categories/:title.html
 thumb: homelinebling.gif
 ---
@@ -11,14 +11,14 @@ thumb: homelinebling.gif
 <div class="description">
 	<header class="post-header">
     <h1 class="post-title" itemprop="name headline">Homeline Bling</h1>
-    <a href="http://devpost.com/software/homeline-bling" target="_blank"> Devpost Project Page </a>
+    <a href="http://devpost.com/software/homeline-bling" target="_blank"> Devpost Project Page </a> | <a href="https://github.com/shanpruthi/homeline-bling" target="_blank"> Github Repo </a>
   </header>
 	<div class="details">
-		Full-stack web app development
+		Full-stack web cloud app development
 		<br>
 		Jan 2016
 		<br>
-		Tools: Bootstrap, Django, Azure, Twillio, Google Maps API, GMaps
+		Tools: Bootstrap, Django, Azure, Twilio, Google Maps API, GMaps
 		<br>Programs: Adobe Illustrator, Photoshop
 		<br>
 	</div>
@@ -28,7 +28,7 @@ Built at WildHacks 2016, winner of MLH Punniest Domain Award
 Homeline Bling is a hotline homeless people can call using a street payphone, and the hotline will relay the name and location of the closest shelter near the caller. So for those late, cold nights, Homeline Bling will provide you with a home. 
 
 <br><br>
-I worked on designing and implementing the accompanying web application using Bootstrap, Google Maps API, and built on the Django framework. I also helped with deploying the website on Azure and setting up Twillio capabilities. 
+I worked on designing and implementing the accompanying web application using Bootstrap, Google Maps API, and built on the Django framework. I also helped with deploying the website on Azure and setting up Twilio capabilities. 
 
 <br>
 
@@ -37,10 +37,9 @@ I worked on designing and implementing the accompanying web application using Bo
 
 </div>
 <div class="images">
-	<img src="{{site.baseurl}}/images/work/se/1.png">
-	<img src="{{site.baseurl}}/images/work/se/2.png">
-	<img src="{{site.baseurl}}/images/work/se/3.png">
-	<img src="{{site.baseurl}}/images/work/se/5.png">
+	<img src="http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/326/208/datas/gallery.jpg">
+	<img src="{{site.baseurl}}/images/work/homelinebling.gif">
+	<img src="http://pre05.deviantart.net/eb86/th/pre/i/2016/083/3/f/cover_by_eexie-d9w9o47.png">
 </div>
 <!-- {% highlight ruby %}
 def print_hi(name)

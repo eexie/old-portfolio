@@ -366,6 +366,7 @@ button:focus {
   padding:50px 0;
   color:$grey-color;
   text-align: center;
+  font-family: $title-font-family;
 }
 .footer h2{
     // padding-bottom:10px; 
@@ -669,7 +670,7 @@ button:focus {
   font-weight:500;
   font-size:0.875em;
 }
-.description a{
+.description a, .footer a{
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
     transition: color 0.2s, background-color 0.2s;
     &:hover{

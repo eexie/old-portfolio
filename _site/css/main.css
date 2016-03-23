@@ -496,7 +496,8 @@ button:focus {
   background-color: #f2f2f2;
   padding: 50px 0;
   color: #536263;
-  text-align: center; }
+  text-align: center;
+  font-family: "Courier New", Courier, monospace; }
 
 .footer hr {
   width: 150px;
@@ -765,10 +766,10 @@ button:focus {
   font-weight: 500;
   font-size: 0.875em; }
 
-.description a {
+.description a, .footer a {
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
   transition: color 0.2s, background-color 0.2s; }
-  .description a:hover {
+  .description a:hover, .footer a:hover {
     color: #f9f9f9;
     background-color: #76a3b3; }
 

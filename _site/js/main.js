@@ -94,7 +94,9 @@
 				setTimeout(function() {
 					window.location = url; 
 				}, 1000);
-
+				// $(window).on("load",function(){
+				// 	window.location=url;
+				// });
 			});
 		});
 

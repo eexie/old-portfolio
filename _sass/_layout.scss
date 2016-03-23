@@ -664,8 +664,18 @@ button:focus {
 }
 .description .details{
   font-family: $title-font-family;
-  color:$brand-color;
+  color:$grey-color;
   margin-bottom:30px;
+  font-weight:500;
+  font-size:0.875em;
+}
+.description a{
+  -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
+    transition: color 0.2s, background-color 0.2s;
+    &:hover{
+      color:$grey-color-light;
+      background-color: $brand-color;
+    }
 }
 @media screen and (max-width: 900px){
   .images{
@@ -851,9 +861,11 @@ button:focus {
 }
 .page-meta span{
   font-weight:bold;
+
 }
 .page-meta h3{
   font-size:24px;
+  color:$brand-color;
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */

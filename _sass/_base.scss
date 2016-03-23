@@ -102,6 +102,15 @@ a {
 }
 
 
+::selection {
+  background: $brand-color; /* WebKit/Blink Browsers */
+  color:$grey-color-light;
+}
+::-moz-selection {
+  background: $brand-color; /* Gecko Browsers */
+  color:$grey-color-light;
+}
+
 
 /**
  * Blockquotes

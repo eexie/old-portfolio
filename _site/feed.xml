@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Mar 2016 16:29:27 -0400</pubDate>
-    <lastBuildDate>Mon, 21 Mar 2016 16:29:27 -0400</lastBuildDate>
+    <pubDate>Tue, 22 Mar 2016 13:05:13 -0400</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2016 13:05:13 -0400</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -173,6 +173,50 @@ ZED Styles is a new proposed small business, providing clients with detailed, an
       </item>
     
       <item>
+        <title>The Stag</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;The Stag&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Digital Illustration
+		&lt;br /&gt;
+		February 2014
+		&lt;br /&gt;
+		Programs: Adobe Illustrator
+		&lt;br /&gt;
+		Dimensions: 11&quot; x 17&quot;
+		&lt;br /&gt;
+	&lt;/div&gt;
+A vector illustration of Will Graham from NBC&#39;s Hannibal.
+
+
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://fc07.deviantart.net/fs70/f/2014/088/3/a/the_stag_by_eexie-d7c55aw.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/art/stag.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/art/stag.html</guid>
+        
+        <category>digital illustration</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
         <title>Science Expo</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
@@ -225,28 +269,29 @@ One of my major tasks last year was creating all of the promotional graphics for
       </item>
     
       <item>
-        <title>Hi-Skule</title>
+        <title>Sammy&#39;s Story</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
-    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Hi-Skule&lt;/h1&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Sammy&#39;s Story&lt;/h1&gt;
   &lt;/header&gt;
 	&lt;div class=&quot;details&quot;&gt;
-		Branding Design
+		Kinetic Typography, Animation
 		&lt;br /&gt;
-		June 2015
+		May 2013 - June 2013
 		&lt;br /&gt;
-		Programs: Adobe Illustrator
+		Programs: Adobe After Effects, Illustrator
+		&lt;br /&gt;
+		Size: 1080p
 		&lt;br /&gt;
 	&lt;/div&gt;
-Hi-Skule is an organziation at the University of Toronto organized by undergraduate engineering students, with the goal of introducing the discipline of engineering to high school students. I was tasked with update the HiSKULE branding, and the result is a cleaner and much more modern design, with a minimalistic hard-hat icon and bold typography. 
+A short 1-minute kinetic typography video animated to my favourite quote from my favourite movie, Nolan&#39;s 2001 film &quot;Memento.&quot;
 
-&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://hiskule.skule.ca/home/&quot; target=&quot;_blank&quot;&gt;Hi-Skule Website&lt;/a&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;images&quot;&gt;
-	&lt;img src=&quot;http://orig01.deviantart.net/f9b9/f/2016/081/4/a/cover_by_eexie-d9w2g1r.png&quot; /&gt;
-	&lt;img src=&quot;http://orig13.deviantart.net/75d6/f/2015/202/4/1/1_by_eexie-d927rkt.png&quot; /&gt;
-	&lt;img src=&quot;http://orig09.deviantart.net/0f92/f/2015/202/6/0/2_by_eexie-d927rjg.png&quot; /&gt;
+	&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.youtube.com/embed/ORbCdc35G6E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+	&lt;img src=&quot;http://orig02.deviantart.net/a951/f/2016/081/3/2/cover_by_eexie-d9w2n56.png&quot; /&gt;
+	&lt;img src=&quot;http://pre00.deviantart.net/0318/th/pre/i/2016/081/3/8/cover_by_eexie-d9w2o8g.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;!-- 
@@ -259,41 +304,41 @@ Hi-Skule is an organziation at the University of Toronto organized by undergradu
 
 </description>
         <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
-        <link>http://yourdomain.com/design/hi-skule.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/design/hi-skule.html</guid>
+        <link>http://yourdomain.com/art/sammy.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/art/sammy.html</guid>
         
-        <category>branding</category>
+        <category>kinetic typography</category>
         
         
-        <category>design</category>
+        <category>art</category>
         
       </item>
     
       <item>
-        <title>Info Brochure</title>
+        <title>Nickel</title>
         <description>&lt;div class=&quot;description&quot;&gt;
 	&lt;header class=&quot;post-header&quot;&gt;
-    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;CyberARTS Info Brochure&lt;/h1&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Nickel&lt;/h1&gt;
   &lt;/header&gt;
 	&lt;div class=&quot;details&quot;&gt;
-		Print Design
+		Mixed Media
 		&lt;br /&gt;
-		October 2014
+		January 2015
 		&lt;br /&gt;
-		Programs: Adobe Illustrator, Photoshop
+		Materials: Plexiglass, acrylic, watercolour, ink, charcoal
 		&lt;br /&gt;
-		Dimensions: 11&quot; x 17&quot;
+		Dimensions: 25&quot; x 25&quot;
 		&lt;br /&gt;
 	&lt;/div&gt;
-Every year, the CyberARTS program hosts information nights about its program. This brochure was designed for the event, targetting prospective students and future applicants of the program. My design was selected for the event, out of the 60 students and 60 designs.
+A plexiglass piece inspired by &quot;If I Had a Nickel&quot; by B.J. Novak, from his debut novel &quot;One More Thing&quot;
 
 
 &lt;/div&gt;
 &lt;div class=&quot;images&quot;&gt;
-	&lt;img src=&quot;http://orig07.deviantart.net/ecb6/f/2016/081/4/c/schedule2_by_eexie-d9w2dcr.jpg&quot; /&gt;
-	&lt;img src=&quot;http://th05.deviantart.net/fs70/PRE/i/2015/014/a/0/b1_by_eexie-d8dvkg0.png&quot; /&gt;
-	&lt;img src=&quot;http://fc08.deviantart.net/fs70/f/2015/007/7/a/brochurefront_by_eexie-d8cyass.jpg&quot; /&gt;
-	&lt;img src=&quot;http://fc06.deviantart.net/fs70/f/2015/007/9/a/brochureback_by_eexie-d8cyas5.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig13.deviantart.net/ff79/f/2016/081/f/f/cover_by_eexie-d9w2s8k.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig13.deviantart.net/5ed3/f/2015/015/3/0/n2_by_eexie-d8e1ixa.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig07.deviantart.net/bef7/f/2015/015/0/6/n1_by_eexie-d8e1iy5.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig03.deviantart.net/a8e3/f/2015/015/d/b/n3_by_eexie-d8e1kac.jpg&quot; /&gt;
 &lt;/div&gt;
 
 &lt;!-- 
@@ -306,13 +351,106 @@ Every year, the CyberARTS program hosts information nights about its program. Th
 
 </description>
         <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
-        <link>http://yourdomain.com/design/cyber-brochure.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/design/cyber-brochure.html</guid>
+        <link>http://yourdomain.com/art/nickel.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/art/nickel.html</guid>
         
-        <category>print media</category>
+        <category>mixed media</category>
         
         
-        <category>design</category>
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>Good Morning</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Good Morning&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		Mixed Media Illustration
+		&lt;br /&gt;
+		June 2013
+		&lt;br /&gt;
+		Materials: Watercolour, ink, oil pastels
+		&lt;br /&gt;
+		Dimensions: 18&quot; x 24&quot;
+		&lt;br /&gt;
+	&lt;/div&gt;
+Self portrait inspired by the song &quot;A Day in the Life&quot; by The Beatles
+
+
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://orig00.deviantart.net/64d5/f/2013/152/7/3/good_morning_by_xrabbii_luvx-d67gchm.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig00.deviantart.net/9f7f/f/2013/152/c/a/_good_morning__details_ii_by_xrabbii_luvx-d67gczd.jpg&quot; /&gt;
+	&lt;img src=&quot;http://orig13.deviantart.net/5f56/f/2013/152/1/c/_good_morning__details_i_by_xrabbii_luvx-d67gcsz.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/art/morning.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/art/morning.html</guid>
+        
+        <category>traditional illustration</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>Good Morning</title>
+        <description>&lt;div class=&quot;description&quot;&gt;
+	&lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot; itemprop=&quot;name headline&quot;&gt;Miscellaneous&lt;/h1&gt;
+  &lt;/header&gt;
+	&lt;div class=&quot;details&quot;&gt;
+		2011-Present
+		&lt;br /&gt;
+		Programs &amp;amp; Materials: various
+		&lt;br /&gt;
+	&lt;/div&gt;
+A small collection of pieces from my sketchbook and other miscellaneous work over the past years.
+
+
+&lt;/div&gt;
+&lt;div class=&quot;images&quot;&gt;
+	&lt;img src=&quot;http://orig08.deviantart.net/cee4/f/2014/060/b/0/sneaks_by_xexultau-d78gjfv.jpg&quot; /&gt;
+	&lt;p&gt;Scratchboard piece of my sneakers&lt;/p&gt;
+	&lt;img src=&quot;http://orig00.deviantart.net/896e/f/2013/152/6/3/life_of_a_flower_by_xrabbii_luvx-d67giud.jpg&quot; /&gt;
+	&lt;p&gt;Still life study of the &quot;life&quot; of an origami flower&lt;/p&gt;
+	&lt;img src=&quot;http://other00.deviantart.net/daa2/o/2014/201/a/6/a6dfc077bbe5314db379ae4b5077f3aa.png&quot; /&gt;
+	&lt;p&gt;Trivia Club promotional poster&lt;/p&gt;
+	&lt;img src=&quot;http://orig11.deviantart.net/25f8/f/2015/203/4/8/3_by_eexie-d92c67y.png&quot; /&gt;
+	&lt;p&gt;Posters for my 2014-2015 Student Council election campaign&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+ --&gt;
+
+</description>
+        <pubDate>Thu, 18 Feb 2016 13:05:49 -0500</pubDate>
+        <link>http://yourdomain.com/art/misc.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/art/misc.html</guid>
+        
+        <category>studies &amp; minor projects</category>
+        
+        
+        <category>art</category>
         
       </item>
     

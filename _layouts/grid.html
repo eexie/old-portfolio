@@ -25,7 +25,7 @@
 					{% endfor %}
 					
 <!--SOFTWARE-->
-					<div class="page-meta" id = "hardware">
+					<div class="page-meta" id = "software">
 						<h3 ><b>Software Projects</b></h3>
 						<p>Projects developed for web, mobile, and everything in between</p>
 						
@@ -43,12 +43,13 @@
 					</a>
 					{% endfor %}
 					
-<!--DESIGN-->
-					<div class="grid__title" id = "design">
-						<h2 class="title title--preview">Graphic Design</h2>
-						<div class="loader"></div>
-						<span class="category">Various design work, including web design, product design, branding</span>
+<!--DESIGN-->		
+					<div class="page-meta" id = "design">
+						<h3 ><b>Graphic Design</b></h3>
+						<p>Various design work, including web design, product design, branding</p>
+						
 					</div>
+					
 					{% for post in site.categories.design %}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
@@ -62,12 +63,12 @@
 					{% endfor %}
 					
 <!--DESIGN-->
-					<div class="grid__title" id = "illustration">
-						<h2 class="title title--preview">Illustrations</h2>
-						<div class="loader"></div>
-						<span class="category">Paintings, illustrations, misc sketches</span>
+					<div class="page-meta" id = "art">
+						<h3 ><b>Art</b></h3>
+						<p>Paintings, digital & traditional illustrations, misc sketches</p>
 					</div>
-					{% for post in site.categories.illustration %}
+					
+					{% for post in site.categories.art %}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">

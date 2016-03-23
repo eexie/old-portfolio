@@ -31,7 +31,7 @@
 						
 					</div>
 					
-					{% for post in site.categories.software %}
+					{% for post in site.categories.software reversed%}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">
@@ -50,7 +50,7 @@
 						
 					</div>
 					
-					{% for post in site.categories.design %}
+					{% for post in site.categories.design reversed%}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">
@@ -68,7 +68,7 @@
 						<p>Paintings, digital & traditional illustrations, misc sketches</p>
 					</div>
 					
-					{% for post in site.categories.art %}
+					{% for post in site.categories.art reversed%}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">

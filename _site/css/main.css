@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #536263;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -271,7 +271,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 12.25px;
   color: #536263; }
 
 .post-link {
@@ -293,7 +293,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  padding-top: 80px;
+  padding-top: 56px;
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
@@ -615,7 +615,7 @@ button:focus {
   height: 100%;
   padding: 50px 10px;
   opacity: 0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 
@@ -705,7 +705,6 @@ button:focus {
   background-color: #f9f9f9;
   padding: 10px 6vw;
   width: 100%;
-  margin-bottom: 20px;
   font-size: 24px;
   color: #76a3b3;
   position: fixed;
@@ -738,7 +737,7 @@ button:focus {
 .category {
   margin: 0;
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -746,8 +745,8 @@ button:focus {
 
 .images {
   width: 60%;
-  padding: 20px;
-  margin-left: 5vw; }
+  margin-left: 2vw;
+  margin-top: 2vw; }
 
 .images img {
   width: 100%; }
@@ -755,16 +754,17 @@ button:focus {
 .description {
   width: 35%;
   position: fixed;
-  right: 0px;
-  padding: 5vw 50px;
-  padding-right: 5vw; }
+  right: 2vw;
+  padding: 2vw 50px;
+  margin-top: 3vw; }
 
 .description .details {
   font-family: "Courier New", Courier, monospace;
   color: #536263;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   font-weight: 500;
-  font-size: 0.875em; }
+  font-size: 0.95em;
+  max-width: 350px; }
 
 .description a, .footer a {
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
@@ -773,7 +773,7 @@ button:focus {
     color: #f9f9f9;
     background-color: #76a3b3; }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .images {
     width: 100%;
     margin: 0; }
@@ -781,7 +781,8 @@ button:focus {
   .description {
     width: 100%;
     position: relative;
-    padding: 10vw 20px; } }
+    padding: 10vw 20px;
+    right: 0px; } }
 .title--preview,
 .loader,
 .category {
@@ -925,7 +926,7 @@ button:focus {
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.8em;
   cursor: default; }
 
 .page-meta span {

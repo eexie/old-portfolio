@@ -132,7 +132,7 @@
 }
 
 .post-content {
-    padding-top: 80px;
+    padding-top: 56px;
     margin-bottom: $spacing-unit;
     h2 {
         font-size: 32px;
@@ -503,7 +503,7 @@ button:focus {
   height:100%;
   padding:50px 10px;
   opacity:0;
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.9);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -604,7 +604,6 @@ button:focus {
   background-color: $grey-color-light;
   padding:10px 6vw;
   width:100%;
-  margin-bottom:20px;
   font-size:24px;
   color:$brand-color;
   position:fixed;
@@ -649,8 +648,8 @@ button:focus {
 }
 .images{
   width:60%;
-  padding:20px;
-  margin-left:5vw;
+  margin-left:2vw;
+  margin-top:2vw;
 }
 .images img{
   width:100%;
@@ -659,16 +658,17 @@ button:focus {
 .description{
   width:35%;
   position:fixed;
-  right:0px;
-  padding:5vw 50px;
-  padding-right:5vw;
+  right:2vw;
+  padding:2vw 50px;
+  margin-top:3vw;
 }
 .description .details{
   font-family: $title-font-family;
   color:$grey-color;
-  margin-bottom:30px;
+  margin-bottom:80px;
   font-weight:500;
-  font-size:0.875em;
+  font-size:0.95em;
+  max-width:350px;
 }
 .description a, .footer a{
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
@@ -678,7 +678,7 @@ button:focus {
       background-color: $brand-color;
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
   .images{
     width:100%;
     margin:0;
@@ -687,6 +687,7 @@ button:focus {
     width:100%;
     position:relative;
     padding: 10vw 20px;
+    right:0px;
   }
 }
 .title--preview,
@@ -857,7 +858,7 @@ button:focus {
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.8em;
   cursor: default;
 }
 .page-meta span{

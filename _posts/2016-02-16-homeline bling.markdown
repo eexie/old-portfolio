@@ -18,7 +18,7 @@ thumb: homelinebling.gif
 		<br>
 		Jan 2016
 		<br>
-		Tools: Bootstrap, Django, Azure, Twilio, Google Maps API, GMaps
+		Built With: Bootstrap, Django, Azure, Twilio, Google Maps API, GMaps
 		<br>Programs: Adobe Illustrator, Photoshop
 		<br>
 	</div>

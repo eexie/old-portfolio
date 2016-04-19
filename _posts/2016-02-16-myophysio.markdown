@@ -2,7 +2,7 @@
 layout: post
 title:  myoPhysio
 date:   2016-02-18 13:05:49 -0500
-categories:  hardware
+categories:  software
 tag: app dev for the Myo
 permalink:   /:categories/:title.html
 thumb: myophysio-main.png

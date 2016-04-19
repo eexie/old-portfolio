@@ -5,6 +5,7 @@ date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: lego NXT prototype
 permalink:   /:categories/:title.html
+featured: true
 thumb: cake-main.png
 ---
 
@@ -22,12 +23,7 @@ thumb: cake-main.png
 		<br>
 	</div>
 
-Built at DeltaHacks 2016, winner of Best Hardware Hack
-<br><br>
-myoPhysio is an Android app that works with the Myo armband to remind and help early onset carpal tunnel patients do the correct physical therapy at home. Using orientation data from the Myo armband, myoPhysio monitors the position of the patients hand and guide them through various exercises.
-
-<br><br>
-I implemented the Myo armband gestures in the app, matching them with the correct physical therapy exercises. I also designed and implemented the assets of the app. 
+The term project for University of Waterloo's MTE 100 course is a group project with the Lego Mindstorm NXT kit. Our group decided to build a robot that 
 
 <br>
 

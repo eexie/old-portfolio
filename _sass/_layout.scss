@@ -303,13 +303,15 @@ button:focus {
 
 }
 .header{
-  padding:80px;
+  padding:8vw;
   text-align: center;
+  height:100vh;
 }
 
 .header-inner{
   background-color:$grey-color-dark;
   padding:100px 0;
+  height:100%;
 }
 
 .header img{
@@ -340,7 +342,7 @@ button:focus {
 }
 .about .image{
   height:350px; 
-  width:100%;
+  width:50%;
   background-image:url("/images/about-image.png");
   background-size: cover;
   background-position:center 45%;
@@ -350,16 +352,14 @@ button:focus {
   color:$grey-color;
   width:50%;
   padding:5vw;
-  height:300px;
+  min-height:350px;
   text-align: left;
+  margin-bottom:50px;
+  margin-top:-350px;
+  margin-left:50%;
 }
 .about .text{
   background-color: $grey-color-dark;  
-}
-.about .skills{
-  background-color: $grey-color-light;
-  margin-top:-300px;
-  margin-left:50%;
 }
 .footer{
   background-color:$grey-color-dark;
@@ -387,9 +387,18 @@ button:focus {
 @media screen and (max-width: 900px) {
   .about .side{
     width:100%;
+    margin:0;
+    margin-bottom:10vw;
+    min-height:inherit;
+  }
+  .about .image{
+    width:100%;
   }
   .about .skills{
    margin:0;
+  }
+  .header{
+    height:inherit;
   }
 }
 @media screen and (max-width: 600px) {

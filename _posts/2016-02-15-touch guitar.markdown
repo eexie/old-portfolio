@@ -5,7 +5,6 @@ date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: arduino powered guitar
 permalink:   /:categories/:title.html
-featured: true
 thumb: cake-main.png
 
 ---

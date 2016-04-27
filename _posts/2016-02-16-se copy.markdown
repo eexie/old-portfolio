@@ -6,6 +6,7 @@ categories:  software
 tag: web development & marketing
 permalink:   /:categories/:title.html
 thumb: deeplearni-main.png
+featured: true
 ---
 
 <div class="description">

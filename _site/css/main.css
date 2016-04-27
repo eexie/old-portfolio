@@ -782,7 +782,7 @@ button:focus {
     color: #f9f9f9;
     background-color: #76a3b3; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .images {
     width: 100%;
     margin: 0; }

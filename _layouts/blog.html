@@ -6,7 +6,17 @@
 	    <div class="container">
 	    	<div class="main"id="theGrid" >
 				<section class="grid">
+					{% for post in site.categories.blog %}
 					
+					<a class="grid__item" href="{{ post.url }}" >
+						<h2 class="title title--preview"> {{ post.title }}</h2>
+						<div class="loader"></div>
+							<span class="category">{{ post.tag }}</span>
+							<div class="meta meta--preview">
+								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+							</div>
+					</a>
+					{% endfor %}
 					<a class="grid__item" href="http://exme.co.nf/pages/brand.html">
 						<h2 class="title title--preview">What Goes Around Comes Around</h2>
 						<div class="loader"></div>

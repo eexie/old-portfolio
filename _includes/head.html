@@ -13,9 +13,8 @@
   <link rel="icon" href="/images/logo.png" type="image/icon">
   <script async src="/js/modernizr.custom.js"></script>
   <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script async src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript">
-    $(function() {
+    $(document).ready(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);

@@ -3,7 +3,7 @@ layout: post
 title:  If Your Love Isn't Strong
 date:   2016-02-18 13:05:49 -0500
 categories:  art
-permalink:   /:categories/:title.html
+permalink:   /:categories/:title
 thumb: haim-main.png
 tag: digital illustration
 ---

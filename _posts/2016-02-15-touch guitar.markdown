@@ -32,7 +32,7 @@ description
 
 </div>
 <div class="images">
-	<img src="{{ site.baseurl }}/images/work/guitar-main.png">
+	<img src="http://orig00.deviantart.net/9d3d/f/2016/160/7/f/guitar_main_by_eexie-da5lj6n.jpg">
 	More pictures coming soon
 </div>
 <!-- {% highlight ruby %}

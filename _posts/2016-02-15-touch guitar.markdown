@@ -23,7 +23,8 @@ thumb: guitar-main.png
 		<br>
 	</div>
 
-description
+Building an Arduino-driven guitar with a laser-cut wooden body, and capacitive touch sensors.
+An audio file plays while strings are touched, transforming any user into an amazing guitar “player”
 
 <br>
 

@@ -34,7 +34,8 @@ An audio file plays while strings are touched, transforming any user into an ama
 </div>
 <div class="images">
 	<img src="http://orig00.deviantart.net/9d3d/f/2016/160/7/f/guitar_main_by_eexie-da5lj6n.jpg">
-	More pictures coming soon
+	<p>
+	More pictures coming soon</p>
 </div>
 <!-- {% highlight ruby %}
 def print_hi(name)

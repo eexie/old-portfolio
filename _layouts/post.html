@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="topbar">
+<div class="topbar"></div>
 	{% if page.previous %}
 	<a href="{{page.previous.url}}">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	{% endif %}
@@ -19,7 +19,6 @@ layout: default
 			window.history.back();
 		}
 	</script>
-</div>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content" itemprop="articleBody">
     {{ content }}

@@ -11,21 +11,21 @@
   <meta name="description" content="	    Dry Erase Plotter     Devpost Project Page    			Mechanical and circuitry design				Oct 2015				Built With: Raspberry Pi, Arduino, C++, Python, Capital ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/hardware/plotter.html">
+  <link rel="canonical" href="http://yourdomain.com/hardware/plotter">
   <link rel="alternate" type="application/rss+xml" title="EMMA XIE" href="http://yourdomain.com/feed.xml">
   <link rel="icon" href="/images/logo.png" type="image/icon">
   <script async src="/js/modernizr.custom.js"></script>
-  <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>
-    $(function() {
+  <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); 
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
-            $('html,body').animate({
+            $('html, body').animate({
               scrollTop: target.offset().top
-            }, 700); // The number here represents the speed of the scroll in milliseconds
+            }, 1000);
             return false;
           }
         }
@@ -123,13 +123,13 @@
      
         <div class="topbar">
 	
-	<a href="/hardware/cakebot.html">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="/hardware/cakebot">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	
 	
 	<a class="toPort" href="/portfolio"><img src="/images/topbar-portfolio.png"/><div class="backText">BACK TO ALL</div></a>
 	
 	&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="/hardware/touch-guitar.html">&rarr;</a></div>
+	<a href="/hardware/touch-guitar">&rarr;</a></div>
 	
 	<!-- <button onclick = "goBack()" class="close-button close-button--show"><strong>&#10005;</strong></button> -->
 	<script>

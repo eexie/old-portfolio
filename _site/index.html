@@ -16,17 +16,17 @@
   <link rel="alternate" type="application/rss+xml" title="EMMA XIE" href="http://yourdomain.com/feed.xml">
   <link rel="icon" href="/images/logo.png" type="image/icon">
   <script async src="/js/modernizr.custom.js"></script>
-  <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>
-    $(function() {
+  <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); 
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
-            $('html,body').animate({
+            $('html, body').animate({
               scrollTop: target.offset().top
-            }, 700); // The number here represents the speed of the scroll in milliseconds
+            }, 1000);
             return false;
           }
         }
@@ -202,7 +202,7 @@
           
             
               
-          <a class="grid__item" href="/hardware/cakebot.html" style="background-image: url(/images/work/cake-main.png)">
+          <a class="grid__item" href="/hardware/cakebot" style="background-image: url(/images/work/cake-main.png)">
             <div class="overlay">
               <h2 class="title title--preview">Cake Bots</h2>
               <div class="loader"></div>
@@ -460,7 +460,7 @@
         <span class="post-meta">Feb 18, 2016</span>
 
         <h2>
-          <a class="post-link" href="/art/haim.html">If Your Love Isn't Strong</a>
+          <a class="post-link" href="/art/haim">If Your Love Isn't Strong</a>
         </h2>
       </li>
     
@@ -532,7 +532,7 @@
         <span class="post-meta">Feb 18, 2016</span>
 
         <h2>
-          <a class="post-link" href="/software/homeline-bling.html">Homeline Bling</a>
+          <a class="post-link" href="/software/homeline-bling">Homeline Bling</a>
         </h2>
       </li>
     
@@ -540,7 +540,7 @@
         <span class="post-meta">Feb 18, 2016</span>
 
         <h2>
-          <a class="post-link" href="/hardware/touch-guitar.html">Touch Guitar</a>
+          <a class="post-link" href="/hardware/touch-guitar">Touch Guitar</a>
         </h2>
       </li>
     
@@ -548,7 +548,7 @@
         <span class="post-meta">Feb 18, 2016</span>
 
         <h2>
-          <a class="post-link" href="/hardware/plotter.html">Dry Erase Plotter</a>
+          <a class="post-link" href="/hardware/plotter">Dry Erase Plotter</a>
         </h2>
       </li>
     
@@ -556,7 +556,7 @@
         <span class="post-meta">Feb 18, 2016</span>
 
         <h2>
-          <a class="post-link" href="/hardware/cakebot.html">Cake Bots</a>
+          <a class="post-link" href="/hardware/cakebot">Cake Bots</a>
         </h2>
       </li>
     

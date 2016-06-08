@@ -32,13 +32,8 @@ description
 
 </div>
 <div class="images">
-	<iframe width="100%" height="500" src="https://www.youtube.com/embed/ai7ZPyB9OJQ" frameborder="0" allowfullscreen></iframe>
-	<img src="http://orig10.deviantart.net/2768/f/2016/086/c/a/untitled_by_eexie-d9woa50.png">
-	<img src="http://orig05.deviantart.net/71e4/f/2016/086/1/1/untitled_by_eexie-d9woa5c.png">
-	<img src="http://orig02.deviantart.net/0593/f/2016/086/5/9/untitled_by_eexie-d9woa4l.png">
-	<img src="http://orig09.deviantart.net/b209/f/2016/086/b/d/untitled_by_eexie-d9woa4b.png">
-	<img src="http://orig01.deviantart.net/431d/f/2016/086/8/3/untitled_by_eexie-d9woa44.png">
-	<p> Software design flowchart</p>
+	<img src="guitar-main.png">
+	More pictures coming soon
 </div>
 <!-- {% highlight ruby %}
 def print_hi(name)

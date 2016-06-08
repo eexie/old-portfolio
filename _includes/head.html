@@ -14,15 +14,15 @@
   <script async src="/js/modernizr.custom.js"></script>
   <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
-    $(function() {
+    $$(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); 
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
-            $('html,body').animate({
+            $('html, body').animate({
               scrollTop: target.offset().top
-            }, 700); // The number here represents the speed of the scroll in milliseconds
+            }, 1000);
             return false;
           }
         }

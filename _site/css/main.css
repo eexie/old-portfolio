@@ -753,7 +753,7 @@ button:focus {
   display: block; }
 
 .images {
-  width: 60%;
+  width: 50%;
   margin-left: 2vw;
   margin-top: 2vw; }
 
@@ -761,7 +761,7 @@ button:focus {
   width: 100%; }
 
 .description {
-  width: 35%;
+  width: 45%;
   position: fixed;
   right: 2vw;
   padding: 2vw 50px;

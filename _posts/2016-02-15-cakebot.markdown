@@ -4,7 +4,7 @@ title:  Cake Bots
 date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: lego NXT prototype
-permalink:   /:categories/:title.html
+permalink:   /:categories/:title
 featured: true
 thumb: cake-main.png
 ---

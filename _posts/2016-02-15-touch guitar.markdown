@@ -4,7 +4,7 @@ title:  Touch Guitar
 date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: arduino powered guitar
-permalink:   /:categories/:title.html
+permalink:   /:categories/:title
 thumb: guitar-main.png
 
 ---

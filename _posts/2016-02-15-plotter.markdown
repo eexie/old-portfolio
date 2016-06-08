@@ -4,7 +4,7 @@ title:  Dry Erase Plotter
 date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: prototyping
-permalink:   /:categories/:title.html
+permalink:   /:categories/:title
 thumb: plotter-main.png
 ---
 

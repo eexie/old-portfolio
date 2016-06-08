@@ -4,7 +4,7 @@ title:  Homeline Bling
 date:   2016-02-18 13:05:49 -0500
 categories:  software
 tag: web & cloud communications
-permalink:   /:categories/:title.html
+permalink:   /:categories/:title
 thumb: homelinebling.gif
 ---
 

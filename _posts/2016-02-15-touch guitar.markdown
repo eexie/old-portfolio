@@ -32,7 +32,7 @@ description
 
 </div>
 <div class="images">
-	<img src="guitar-main.png">
+	<img src="{{ site.baseurl }}/images/work/guitar-main.png">
 	More pictures coming soon
 </div>
 <!-- {% highlight ruby %}

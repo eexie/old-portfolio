@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
 /**
  * Reset some basic elements
  */
@@ -54,7 +55,7 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cutive Mono", monospace;
   margin: 0; }
 
 h1 {
@@ -346,7 +347,7 @@ button:focus {
   font-size: 1em;
   line-height: 1;
   color: #fff;
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Cutive Mono", monospace; }
 
 .sidebar h1 span {
   display: block; }
@@ -383,7 +384,7 @@ button:focus {
   background-color: #f9f9f9;
   padding: 0;
   padding-top: 10vh;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cutive Mono", monospace;
   font-size: 22px; }
 
 .related .menu-item .sub-menu h2 {
@@ -497,7 +498,7 @@ button:focus {
   padding: 50px 0;
   color: #536263;
   text-align: center;
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Cutive Mono", monospace; }
 
 .footer hr {
   width: 150px;
@@ -595,12 +596,9 @@ button:focus {
   font-size: 80%; }
 
 /* Grid item */
-.grid__item {
-  padding: 45px 55px 30px;
+.grid__item, .grid__title {
   position: relative;
-  color: inherit;
-  background: #fff;
-  min-height: 300px;
+  min-height: 30vw;
   cursor: pointer;
   text-align: center;
   display: -webkit-box;
@@ -614,41 +612,34 @@ button:focus {
   flex-direction: column;
   -webkit-justify-content: center;
   justify-content: center;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.grid__item {
+  padding: 0;
+  color: inherit;
+  background: #fff;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  padding: 50px 10px;
-  opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
-
-.grid__item:hover .overlay {
-  opacity: 1; }
-
 .grid__title {
   padding: 45px 55px 30px;
-  position: relative;
   color: #536263;
-  background: #f2f2f2;
-  min-height: 300px;
-  text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center; }
+  background: #f2f2f2; }
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  padding: 0 10px;
+  background-color: #f2f2f2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden; }
+
+.grid__item:hover .overlay {
+  height: 100%; }
 
 /* Grid item "border" */
 .grid__item::before, .grid__title::before {
@@ -665,9 +656,9 @@ button:focus {
 
 /* grid item element and full content element styles */
 .title {
-  margin: 30px 0;
+  margin: 0.5em 0;
   font-size: 1.5em;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cutive Mono", monospace;
   font-weight: 600;
   text-align: center; }
 
@@ -685,7 +676,7 @@ button:focus {
 .loader {
   height: 1px;
   width: 40%;
-  margin: 1em auto;
+  margin: 0.5em auto;
   position: relative;
   background: rgba(0, 0, 0, 0.1); }
 
@@ -768,7 +759,7 @@ button:focus {
   margin-top: 3vw; }
 
 .description .details {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cutive Mono", monospace;
   color: #536263;
   margin-bottom: 80px;
   font-weight: 500;
@@ -935,7 +926,7 @@ button:focus {
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   cursor: default; }
 
 .page-meta span {
@@ -1179,7 +1170,7 @@ button:focus {
   .content__item {
     font-size: 1em; }
 
-  .grid__item, .grid__title {
+  .grid__title {
     padding: 45px 45px 30px; }
 
   /* Demo ad */

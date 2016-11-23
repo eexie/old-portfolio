@@ -6,6 +6,7 @@ categories:  software
 tag: web & branding
 permalink:   /:categories/:title.html
 thumb: se-main.png
+featured: true
 ---
 
 <div class="description">

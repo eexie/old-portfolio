@@ -6,6 +6,7 @@ categories:  hardware
 tag: arduino powered guitar
 permalink:   /:categories/:title
 thumb: guitar-main.png
+featured: true
 
 ---
 

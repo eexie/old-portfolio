@@ -319,6 +319,11 @@ button:focus {
 
   margin-bottom:50px;
 }
+.header p{
+  padding:20px 5vw;
+  max-width:800px;
+  margin:auto;
+}
 .action{
   text-align:center;
   padding:10px 20px;
@@ -376,14 +381,6 @@ button:focus {
   margin:auto;
   margin-bottom:50px;
 }
-.footer a{
-  -webkit-transition: -webkit-all 0.2s;
-    transition: all 0.2s;
-  color:$grey-color;
-}
-.footer a:hover{
-  color:$brand-color;
-}
 @media screen and (max-width: 900px) {
   .about .side{
     width:100%;
@@ -399,11 +396,12 @@ button:focus {
   }
   .header{
     height:inherit;
+    min-height:0;
   }
 }
 @media screen and (max-width: 600px) {
   .header{
-  padding:0;
+    padding:0;
   }
   .about{
     padding:0;
@@ -486,7 +484,7 @@ button:focus {
 /* Grid item */
 .grid__item, .grid__title {
   position: relative;
-  min-height: 70vw;
+  min-height: 90vw;
   cursor: pointer;
   text-align: center;
   display: -webkit-box;
@@ -520,7 +518,7 @@ button:focus {
   width:100%;
   position:absolute;
   bottom:0;
-  height:25%;
+  height:30%;
   padding:0 10px;
   background-color: $grey-color-dark;
   -webkit-transition: all 0.5s;
@@ -671,7 +669,7 @@ button:focus {
   font-size:0.95em;
   max-width:350px;
 }
-.description a, .footer a{
+.header a, .description a, .footer a{
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
     transition: color 0.2s, background-color 0.2s;
     &:hover{
@@ -1181,7 +1179,7 @@ button:focus {
   /* 2 columns */
   .grid__item, .grid__title {
     width: 48%;
-    min-height:55vw;
+    min-height:50vw;
     border: none;
     margin: 1%;
   }
@@ -1203,7 +1201,7 @@ button:focus {
   /* 3 columns */
   .grid__item, .grid__title {
     width: 23%;
-    min-height: 30vw;
+    min-height: 28vw;
     margin: 1%;
   }
 }
@@ -1211,7 +1209,7 @@ button:focus {
   /* 4 columns */
   .grid__item, .grid__title {
     width: 23%;
-    min-height: 27vw;
+    min-height: 25vw;
     margin: 1%;
   }
 }
@@ -1219,7 +1217,7 @@ button:focus {
   /* 5 columns */
   .grid__item, .grid__title {
     width: 17.8%;
-    min-height: 25vw;
+    min-height: 20vw;
     margin: 1%;
   }
 }
@@ -1227,7 +1225,7 @@ button:focus {
   /* 6 columns */
   .grid__item, .grid__title {
     width: 15.33%;
-    min-height: 20vw;
+    min-height: 18vw;
     margin: 1%;
   }
 }

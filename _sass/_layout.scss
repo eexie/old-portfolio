@@ -419,6 +419,7 @@ button:focus {
 /* Grid container */
 .grid {
   position: relative;
+  margin:0 1%;
 }
 
 /* Overlay */
@@ -485,13 +486,14 @@ button:focus {
 /* Grid item */
 .grid__item, .grid__title {
   position: relative;
-  min-height: 30vw;
+  min-height: 70vw;
   cursor: pointer;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin:2% 1%;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -504,7 +506,7 @@ button:focus {
 .grid__item{
   padding:0;
   color: inherit;
-  background: #fff;
+  background: $grey-color-light;
   background-size:cover;
   background-position: center center;
   background-repeat:no-repeat;
@@ -541,7 +543,7 @@ button:focus {
 }
 .grid__item:hover{
     color:$brand-color;
-    background-color:rgba(249,249,249,0.6);
+    background-color:$grey-color-dark;
 }
 
 .grid__item *, .grid__title *  {
@@ -1178,8 +1180,10 @@ button:focus {
 
   /* 2 columns */
   .grid__item, .grid__title {
-    width: 50%;
+    width: 48%;
+    min-height:55vw;
     border: none;
+    margin: 1%;
   }
 
   .grid__item::before {
@@ -1198,25 +1202,33 @@ button:focus {
 @media screen and (min-width: 1000px) {
   /* 3 columns */
   .grid__item, .grid__title {
-    width: 25%;
+    width: 23%;
+    min-height: 30vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 1500px) {
   /* 4 columns */
   .grid__item, .grid__title {
-    width: 25%;
+    width: 23%;
+    min-height: 27vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 1800px) {
   /* 5 columns */
   .grid__item, .grid__title {
-    width: 20%;
+    width: 17.8%;
+    min-height: 25vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 2100px) {
   /* 6 columns */
   .grid__item, .grid__title {
-    width: 16.66%;
+    width: 15.33%;
+    min-height: 20vw;
+    margin: 1%;
   }
 }
 

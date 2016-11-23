@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto");
 /**
  * Reset some basic elements
  */
@@ -72,8 +72,6 @@ a {
   color: #76a3b3;
   text-decoration: none;
   outline: none; }
-  a:visited {
-    color: #4f7d8e; }
   a:hover {
     color: #536263;
     outline: none; }
@@ -542,7 +540,8 @@ button:focus {
     margin: 0; } }
 /* Grid container */
 .grid {
-  position: relative; }
+  position: relative;
+  margin: 0 1%; }
 
 /* Overlay */
 .grid::after {
@@ -598,13 +597,14 @@ button:focus {
 /* Grid item */
 .grid__item, .grid__title {
   position: relative;
-  min-height: 30vw;
+  min-height: 70vw;
   cursor: pointer;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin: 2% 1%;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -617,7 +617,7 @@ button:focus {
 .grid__item {
   padding: 0;
   color: inherit;
-  background: #fff;
+  background: #f9f9f9;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
@@ -652,14 +652,14 @@ button:focus {
 
 .grid__item:hover {
   color: #76a3b3;
-  background-color: rgba(249, 249, 249, 0.6); }
+  background-color: #f2f2f2; }
 
 /* grid item element and full content element styles */
 .title {
   margin: 0.5em 0;
   font-size: 1.5em;
   font-family: "Cutive Mono", monospace;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center; }
 
 .title--preview {
@@ -1207,8 +1207,10 @@ button:focus {
 
   /* 2 columns */
   .grid__item, .grid__title {
-    width: 50%;
-    border: none; }
+    width: 48%;
+    min-height: 55vw;
+    border: none;
+    margin: 1%; }
 
   .grid__item::before {
     top: 0;
@@ -1223,19 +1225,27 @@ button:focus {
 @media screen and (min-width: 1000px) {
   /* 3 columns */
   .grid__item, .grid__title {
-    width: 25%; } }
+    width: 23%;
+    min-height: 30vw;
+    margin: 1%; } }
 @media screen and (min-width: 1500px) {
   /* 4 columns */
   .grid__item, .grid__title {
-    width: 25%; } }
+    width: 23%;
+    min-height: 27vw;
+    margin: 1%; } }
 @media screen and (min-width: 1800px) {
   /* 5 columns */
   .grid__item, .grid__title {
-    width: 20%; } }
+    width: 17.8%;
+    min-height: 25vw;
+    margin: 1%; } }
 @media screen and (min-width: 2100px) {
   /* 6 columns */
   .grid__item, .grid__title {
-    width: 16.66%; } }
+    width: 15.33%;
+    min-height: 20vw;
+    margin: 1%; } }
 @media screen and (max-height: 580px) {
   body #cdawrap {
     display: none; } }

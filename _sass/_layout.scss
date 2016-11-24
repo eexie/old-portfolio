@@ -244,7 +244,7 @@ button:focus {
     padding-top:10vh;
     font-family: $title-font-family;
     font-size:22px;
-    
+    transition: opacity 0.2s ease-in-out;
 }
 
 .related .menu-item .sub-menu h2{
@@ -319,6 +319,11 @@ button:focus {
 
   margin-bottom:50px;
 }
+.header p{
+  padding:20px 5vw;
+  max-width:800px;
+  margin:auto;
+}
 .action{
   text-align:center;
   padding:10px 20px;
@@ -376,14 +381,6 @@ button:focus {
   margin:auto;
   margin-bottom:50px;
 }
-.footer a{
-  -webkit-transition: -webkit-all 0.2s;
-    transition: all 0.2s;
-  color:$grey-color;
-}
-.footer a:hover{
-  color:$brand-color;
-}
 @media screen and (max-width: 900px) {
   .about .side{
     width:100%;
@@ -399,11 +396,12 @@ button:focus {
   }
   .header{
     height:inherit;
+    min-height:0;
   }
 }
 @media screen and (max-width: 600px) {
   .header{
-  padding:0;
+    padding:0;
   }
   .about{
     padding:0;
@@ -419,6 +417,7 @@ button:focus {
 /* Grid container */
 .grid {
   position: relative;
+  margin:0 1%;
 }
 
 /* Overlay */
@@ -483,18 +482,16 @@ button:focus {
 }
 
 /* Grid item */
-.grid__item {
-  padding: 45px 55px 30px;
+.grid__item, .grid__title {
   position: relative;
-  color: inherit;
-  background: #fff;
-  min-height: 300px;
+  min-height: 90vw;
   cursor: pointer;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin:2% 1%;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -503,40 +500,33 @@ button:focus {
   -webkit-justify-content: center;
   justify-content: center;
   transition: all 0.3s ease-in;
+}
+.grid__item{
+  padding:0;
+  color: inherit;
+  background: $grey-color-light;
   background-size:cover;
   background-position: center center;
   background-repeat:no-repeat;
 }
-.overlay{
-  width:100%;
-  height:100%;
-  padding:50px 10px;
-  opacity:0;
-  background-color: rgba(255,255,255,0.9);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.grid__item:hover .overlay{
-  opacity:1;
-}
 .grid__title {
   padding: 45px 55px 30px;
-  position: relative;
   color: $grey-color;
   background: #f2f2f2;
-  min-height: 300px;
-  text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center;
+}
+.overlay{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  height:30%;
+  padding:0 10px;
+  background-color: $grey-color-dark;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.grid__item:hover .overlay{
+  height:100%
 }
 
 /* Grid item "border" */
@@ -551,7 +541,7 @@ button:focus {
 }
 .grid__item:hover{
     color:$brand-color;
-    background-color:rgba(249,249,249,0.6);
+    background-color:$grey-color-dark;
 }
 
 .grid__item *, .grid__title *  {
@@ -560,7 +550,7 @@ button:focus {
 
 /* grid item element and full content element styles */
 .title {
-  margin: 30px 0;
+  margin: 0.5em 0;
   font-size: 1.5em;
   font-family: $title-font-family;
   font-weight: $title-font-weight;
@@ -582,7 +572,7 @@ button:focus {
 .loader {
   height: 1px;
   width: 40%;
-  margin: 1em auto;
+  margin: 0.5em auto;
   position: relative;
   background: rgba(0, 0, 0, 0.1);
 }
@@ -664,6 +654,11 @@ button:focus {
   width:100%;
   // margin-bottom: 20px;
 }
+.short-description{
+  margin: 50px auto;
+  padding: 0 1vw;
+  color:$text-color;
+}
 .description{
   width:45%;
   position:fixed;
@@ -679,7 +674,7 @@ button:focus {
   font-size:0.95em;
   max-width:350px;
 }
-.description a, .footer a{
+.header a, .description a, .footer a{
   -webkit-transition: -webkit-color 0.2s, background-color 0.2s;
     transition: color 0.2s, background-color 0.2s;
     &:hover{
@@ -867,7 +862,7 @@ button:focus {
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   cursor: default;
 }
 .page-meta span{
@@ -1142,7 +1137,7 @@ button:focus {
     font-size: 1em;
   }
 
-  .grid__item, .grid__title {
+  .grid__title {
     padding: 45px 45px 30px;
   }
 
@@ -1188,8 +1183,10 @@ button:focus {
 
   /* 2 columns */
   .grid__item, .grid__title {
-    width: 50%;
+    width: 48%;
+    min-height:48vw;
     border: none;
+    margin: 1%;
   }
 
   .grid__item::before {
@@ -1208,25 +1205,33 @@ button:focus {
 @media screen and (min-width: 1000px) {
   /* 3 columns */
   .grid__item, .grid__title {
-    width: 25%;
+    width: 23%;
+    min-height: 28vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 1500px) {
   /* 4 columns */
   .grid__item, .grid__title {
-    width: 25%;
+    width: 23%;
+    min-height: 25vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 1800px) {
   /* 5 columns */
   .grid__item, .grid__title {
-    width: 20%;
+    width: 17.8%;
+    min-height: 20vw;
+    margin: 1%;
   }
 }
 @media screen and (min-width: 2100px) {
   /* 6 columns */
   .grid__item, .grid__title {
-    width: 16.66%;
+    width: 15.33%;
+    min-height: 18vw;
+    margin: 1%;
   }
 }
 

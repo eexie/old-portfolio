@@ -6,6 +6,7 @@ categories:  design
 permalink:   /:categories/:title.html
 thumb: zed-main.png
 tag: product design
+description: ZED Styles is a new proposed small business, providing clients with detailed, and customizable zipper accessories. ZED Styles' first product is ZED Pops, a zipper clip
 ---
 
 <div class="description">

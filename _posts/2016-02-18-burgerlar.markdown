@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title.html
 thumb: burgerlar-main.png
 tag: traditional illustration
+description: A burglar + a burger
 ---
 
 <div class="description">

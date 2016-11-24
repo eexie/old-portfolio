@@ -6,6 +6,8 @@ categories:  software
 tag: web & branding
 permalink:   /:categories/:title.html
 thumb: se-main.png
+featured: true
+description: Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since sumer 2014, I have been working with them as the site developer and graphic designer
 ---
 
 <div class="description">

@@ -6,6 +6,7 @@ categories:  hardware
 tag: prototyping
 permalink:   /:categories/:title
 thumb: plotter-main.png
+description: Dry Erase Plotter is a low energy alternative to the excessive monitors financial companies use to display market data
 ---
 
 <div class="description">
@@ -24,7 +25,7 @@ thumb: plotter-main.png
 
 Built at BostonHacks 2015, winner of Capital One API Award
 <br><br>
-Dry Eraes Plotter is a low energy alternative to the excessive monitors financial companies use to display market data. The setup is a dry erase board with fishing wires attaching two stepper motors on the corners to a piece of plastic. The plastic acts as the mount to the dry erase marker, whose motions can be controlled by the motors via an Arduino with stock market API data sent through the Raspberry Pi.
+Dry Erese Plotter is a low energy alternative to the excessive monitors financial companies use to display market data. The setup is a dry erase board with fishing wires attaching two stepper motors on the corners to a piece of plastic. The plastic acts as the mount to the dry erase marker, whose motions can be controlled by the motors via an Arduino with stock market API data sent through the Raspberry Pi.
 
 <br><br>
 I contributed in designing and implementing mechanical build of the setup, and setting up the connection between the Arduino and Raspberry Pi. I also soldered components together in the electrical circuitry.

@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title
 thumb: haim-main.png
 tag: digital illustration
+description: Painting of Danielle Haim from the band Haim
 ---
 
 <div class="description">

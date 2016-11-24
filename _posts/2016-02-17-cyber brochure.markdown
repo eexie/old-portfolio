@@ -6,6 +6,7 @@ categories:  design
 permalink:   /:categories/:title.html
 thumb: brochure-main.png
 tag: print media
+description: Every year, the CyberARTS program hosts information nights about its program. This brochure was designed for the event, targetting prospective students and future applicants of the program
 ---
 
 <div class="description">

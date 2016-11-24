@@ -91,13 +91,16 @@ a {
     color: $brand-color;
     text-decoration: none;
     outline: none;
+    transition: all 0.3s ease-in-out;
     &:visited {
-        color: darken($brand-color, 15%);
+        // color: darken($brand-color, 15%);s
     }
 
     &:hover {
         color: $text-color;
         outline:none;
+        cursor: pointer;
+        
     }
 }
 

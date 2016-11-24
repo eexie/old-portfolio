@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title.html
 thumb: nickel-main.png
 tag: mixed media
+description: Inspired by "If I Had a Nickel" by B.J. Novak, from his debut novel "One More Thing"
 ---
 
 <div class="description">

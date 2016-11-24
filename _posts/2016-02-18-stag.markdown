@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title.html
 thumb: stag-main.png
 tag: digital illustration
+description: A vector illustration of Will Graham from NBC's Hannibal.
 ---
 
 <div class="description">

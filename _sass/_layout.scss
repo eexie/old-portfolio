@@ -244,7 +244,7 @@ button:focus {
     padding-top:10vh;
     font-family: $title-font-family;
     font-size:22px;
-    
+    transition: opacity 0.2s ease-in-out;
 }
 
 .related .menu-item .sub-menu h2{
@@ -653,6 +653,11 @@ button:focus {
 .images img{
   width:100%;
   // margin-bottom: 20px;
+}
+.short-description{
+  margin: 50px auto;
+  padding: 0 1vw;
+  color:$text-color;
 }
 .description{
   width:45%;
@@ -1179,7 +1184,7 @@ button:focus {
   /* 2 columns */
   .grid__item, .grid__title {
     width: 48%;
-    min-height:50vw;
+    min-height:48vw;
     border: none;
     margin: 1%;
   }

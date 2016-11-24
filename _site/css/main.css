@@ -385,7 +385,8 @@ button:focus {
   padding: 0;
   padding-top: 10vh;
   font-family: "Cutive Mono", monospace;
-  font-size: 22px; }
+  font-size: 22px;
+  transition: opacity 0.2s ease-in-out; }
 
 .related .menu-item .sub-menu h2 {
   font-size: 28px; }
@@ -750,6 +751,11 @@ button:focus {
 
 .images img {
   width: 100%; }
+
+.short-description {
+  margin: 50px auto;
+  padding: 0 1vw;
+  color: #536263; }
 
 .description {
   width: 45%;
@@ -1208,7 +1214,7 @@ button:focus {
   /* 2 columns */
   .grid__item, .grid__title {
     width: 48%;
-    min-height: 50vw;
+    min-height: 48vw;
     border: none;
     margin: 1%; }
 

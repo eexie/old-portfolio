@@ -10,7 +10,7 @@ layout: default
       <h1>EMMA XIE</h1>
       <!-- <h3 style="color:#76a3b3"><strong>MECHATRONICS ENGINEERING</strong></h3> -->
       <hr width="150px" style="margin:20px auto;">
-      <p> Welcome! I'm a 2nd year <b>Mechatronics Engineering</b> student at the University of Waterloo. <br>Take a look around <i><a href="#portfolio">my portfolio</a></i>, read more <i><a href="#about">about me</a></i>, and <i><a href="#contact">drop me a line!</a></i></p>
+      <p> I'm a 2nd year <b>Mechatronics Engineering</b> student at the University of Waterloo. <br>Take a look around <i><a href="#portfolio">my portfolio</a></i>, read more <i><a href="#about">about me</a></i>, and <i><a href="#contact">say hello!</a></i></p>
       <br><br>
       <a class="action" href="#portfolio">PORTFOLIO</a>
       <a class="action" href="{{ site.baseurl }}/resume.pdf" target="_blank">&nbsp;&nbsp;RESUME&nbsp;&nbsp;</a>
@@ -55,7 +55,7 @@ layout: default
 
 
 
-          {% for post in site.posts reversed limit: 2%}
+          {% for post in site.posts reversed limit: 4%}
           
           <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
             <div class="overlay">
@@ -86,7 +86,7 @@ layout: default
           <div class="about-inner">
             <div class="image"></div>
             <div class="side text">
-              <p>I am a Toronto-based student currently studying Mechatronics Engineering at the University of Waterloo. My interests and experiences vary from hardware prototyping and virtual reality, to robotics and graphic design. I have special interests in rapid prototyping and web development, as well control systems and human-computer interactions. <br><br>I am currently looking for <b>internship opportunities</b> in software or electrical engineering for <b>Summer 2017</b>. I love meeting new people and learning new things, so drop me a line if you want to connect!</p>
+              <p>I am a Toronto-based student currently studying Mechatronics Engineering at the University of Waterloo. My interests and experiences vary from hardware prototyping, web development, and virtual reality, to robotics and graphic design. I have special interests in prototyping technologies and human-computer interactions. <br><br>I am currently looking for <b>internship opportunities</b> in software or electrical engineering for <b>Summer 2017</b>. I love meeting new people and learning new things, so drop me a line if you want to connect!</p>
             </div>
             
           </div>
@@ -149,10 +149,10 @@ layout: default
   <div class="footer" id="contact">
     <h2>
           <h2 class="title" href="#">CONTACT</h2>
-          <p><i>Say hi!</i></p>
+          <p><i>Say hi! </i><br><h3><a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i></h3  ><br><br>
             <hr>
             
-            <a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i><br><br><br></p>
+            
             
             <a href="https://github.com/eexie" target="_blank">GITHUB</a> | <a href="http://devpost.com/exme"target="_blank">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie"target="_blank">LINKEDIN</a> | <a href="https://twitter.com/EXME_X"target="_blank">TWITTER</a>
         </h2>

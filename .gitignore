@@ -20,4 +20,4 @@ pkg/
 site/_site/
 test/dest
 tmp/*
-:path_to_ignore
+_site/feed.xml

@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title.html
 thumb: day-main.png
 tag: traditional illustration
+description: Self portrait inspired by the song "A Day in the Life" by The Beatles
 ---
 
 <div class="description">

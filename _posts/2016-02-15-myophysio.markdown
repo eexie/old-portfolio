@@ -7,6 +7,7 @@ tag: hardware hack
 permalink:   /:categories/:title.html
 thumb: myophysio-main.png
 featured: true
+description: An Android app that works with the Myo armband to remind and help early onset carpal tunnel patients do the correct physical therapy at home
 ---
 
 <div class="description">

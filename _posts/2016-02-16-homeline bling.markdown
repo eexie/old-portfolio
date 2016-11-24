@@ -6,6 +6,7 @@ categories:  software
 tag: web & cloud communications
 permalink:   /:categories/:title
 thumb: homelinebling.gif
+description: Homeline Bling is a hotline homeless people can call using a street payphone, and the hotline will relay the name and location of the closest shelter near the caller. So for those late, cold nights, Homeline Bling will provide you with a home.
 ---
 
 <div class="description">

@@ -6,6 +6,7 @@ categories:  art
 permalink:   /:categories/:title.html
 thumb: misc-main.png
 tag: studies & minor projects
+description: A small collection of pieces from my sketchbook and other miscellaneous work over the past years.
 ---
 
 <div class="description">

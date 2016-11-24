@@ -6,6 +6,7 @@ categories:  design
 permalink:   /:categories/:title.html
 thumb: skule-main.png
 tag: branding
+description: Hi-Skule is an organziation at the University of Toronto organized by undergraduate engineering students, with the goal of introducing the discipline of engineering to high school students
 ---
 
 <div class="description">

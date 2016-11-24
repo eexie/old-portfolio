@@ -20,8 +20,8 @@ description: Science Expo is the largest student-run organization in Canada, con
 		<br>
 		June 2014-July 2015
 		<br>
-		Tools: Bootstrap, JQuery, Mailchimp
-		Programs: Adobe Illustrator, Photoshop
+		<i>Tools:</i> Bootstrap, JQuery, Mailchimp
+		<i>Programs:</i> Adobe Illustrator, Photoshop
 		<br>
 	</div>
 Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since sumer 2014, I have been working with them as the site developer and graphic designer. 

@@ -18,7 +18,7 @@ description: A job search app startup. My projects on the team included creating
 		<br>
 		Jan 2015-August 2015
 		<br>
-		Programs: various
+		<i>Programs:</i> various
 		<br>
 	</div>
 Wirkn is a mobile app startup from the heart of Toronto that provides an alternative to job search with video applications. My projects include creating general branding promotional graphics, Google and Facebook ads, hiring ads for our connected employers, social media content, newsletter design, and infographics.

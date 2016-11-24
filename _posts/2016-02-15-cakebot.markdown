@@ -13,14 +13,14 @@ description: A mechatronics system built using the Lego NXT Mindstorm, Lego part
 <div class="description">
 	<header class="post-header">
     <h1 class="post-title" itemprop="name headline">Cake Bots</h1>
-    
+    <a href="{{ site.baseurl  }}/CakeBotsFinalReport.pdf">Design report</a>
   </header>
 	<div class="details">
 		Lego NXT prototyping
 		<br>
 		Oct 2015-Dec 2015
 		<br>
-		Built With: Lego NXT, plywood, icing dispensers, RobotC
+		<i>Built With:</i> Lego NXT, plywood, icing dispensers, RobotC
 		<br>
 	</div>
 
@@ -30,8 +30,6 @@ description: A mechatronics system built using the Lego NXT Mindstorm, Lego part
     <br>
 	I was responsible for the main mechanical build of the project, designing and prototyping with the Lego and Textrix pieces. All group members contributed intial alternative designs and creating functions for the NXT Robot in RobotC.
     <br>
-    <a href="{{ site.baseurl  }}/CakeBotsFinalReport.pdf">Design report</a>
-
 <br>
 
 

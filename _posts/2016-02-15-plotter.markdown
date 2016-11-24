@@ -19,7 +19,7 @@ description: Dry Erase Plotter is a low energy alternative to the excessive moni
 		<br>
 		Oct 2015
 		<br>
-		Built With: Raspberry Pi, Arduino, C++, Python, Capital One API, Market On Demand API
+		<i>Built With</i>: Raspberry Pi, Arduino, C++, Python, Capital One API, Market On Demand API
 		<br>
 	</div>
 

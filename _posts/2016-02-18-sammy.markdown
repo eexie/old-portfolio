@@ -18,9 +18,9 @@ description: A short 1-minute kinetic typography video animated to my favourite 
 		<br>
 		May 2013 - June 2013
 		<br>
-		Programs: Adobe After Effects, Illustrator
+		<i>Programs:</i> Adobe After Effects, Illustrator
 		<br>
-		Size: 1080p
+		<i>Size:</i> 1080p
 		<br>
 	</div>
 A short 1-minute kinetic typography video animated to my favourite quote from my favourite movie, Nolan's 2001 film "Memento."

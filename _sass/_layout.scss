@@ -346,7 +346,7 @@ button:focus {
   text-align: center;
 }
 .about .image{
-  height:350px; 
+  height:400px; 
   width:50%;
   background-image:url("/images/about-image.png");
   background-size: cover;
@@ -356,19 +356,25 @@ button:focus {
 .about .side{
   color:$grey-color;
   width:50%;
-  padding:5vw;
-  min-height:350px;
+  padding:4.5vw;
+  min-height:400px;
   text-align: left;
   margin-bottom:50px;
-  margin-top:-350px;
+  margin-top:-400px;
   margin-left:50%;
 }
 .about .text{
   background-color: $grey-color-dark;  
 }
+.about .side p{
+  margin:0;
+}
+.about .side .action{
+  margin:0;
+}
 .footer{
   background-color:$grey-color-dark;
-  padding:50px 0;
+  padding:50px 10%;
   color:$grey-color;
   text-align: center;
   font-family: $title-font-family;
@@ -381,10 +387,11 @@ button:focus {
   margin:auto;
   margin-bottom:50px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .about .side{
     width:100%;
     margin:0;
+    padding:10%;
     margin-bottom:10vw;
     min-height:inherit;
   }
@@ -417,7 +424,6 @@ button:focus {
 /* Grid container */
 .grid {
   position: relative;
-  margin:0 1%;
 }
 
 /* Overlay */
@@ -486,12 +492,12 @@ button:focus {
   position: relative;
   min-height: 90vw;
   cursor: pointer;
+  margin: 5% 0;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin:2% 1%;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -602,6 +608,7 @@ button:focus {
 .topbar{
   background-color: $grey-color-light;
   padding:10px 6vw;
+  padding-bottom: 25px;
   width:100%;
   font-size:24px;
   color:$brand-color;
@@ -617,21 +624,24 @@ button:focus {
   padding:5px;
 }
 .topbar .toPort .backText{
-  display:none;
+  /*display:none;*/
   opacity: 0;
   position:absolute;
-  margin: 12px 10px;
+  margin: 0 -47px;
+  margin-top:38px;
   font-size: 12px;
-    -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+    -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display:inline;
 }
 
 .topbar .toPort:hover{
-  margin-right:80px;
+  /*margin-right:80px;*/
   .backText{
-    display:inline;
+    /*display:inline;*/
     color:$brand-color;
     opacity: 1;
+    /*margin: -23px 40px;*/
   }
 
 }
@@ -655,7 +665,7 @@ button:focus {
   // margin-bottom: 20px;
 }
 .short-description{
-  margin: 50px auto;
+  margin: 17%  auto;
   padding: 0 1vw;
   color:$text-color;
 }
@@ -1127,8 +1137,8 @@ button:focus {
   .container,
   .main {
     height: 100vh;
+    background-color: $background-color;
   }
-
   .main {
     height: 100%;
   }
@@ -1179,6 +1189,7 @@ button:focus {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin:0 1%;
   }
 
   /* 2 columns */
@@ -1229,8 +1240,8 @@ button:focus {
 @media screen and (min-width: 2100px) {
   /* 6 columns */
   .grid__item, .grid__title {
-    width: 15.33%;
-    min-height: 18vw;
+    width: 14.65%;
+    min-height: 17vw;
     margin: 1%;
   }
 }

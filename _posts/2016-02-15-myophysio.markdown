@@ -20,7 +20,7 @@ description: An Android app that works with the Myo armband to remind and help e
 		<br>
 		Feb 2016
 		<br>
-		Built With: Android Studio, Myo Armband, Adobe Illustrator
+		<i>Built With</i>: Android Studio, Myo Armband, Adobe Illustrator
 		<br>
 	</div>
 

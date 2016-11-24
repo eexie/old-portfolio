@@ -18,7 +18,7 @@ description: Painting of Danielle Haim from the band Haim
 		<br>
 		January 2014
 		<br>
-		Programs: Paint Tool Sai
+		<i>Programs:</i> Paint Tool Sai
 		<br>
 	</div>
 <blockquote>"Take me back

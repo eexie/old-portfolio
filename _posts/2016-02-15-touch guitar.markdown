@@ -20,7 +20,7 @@ description: Building an Arduino-driven guitar with a laser-cut wooden body and 
 		<br>
 		Jan 2016-Present
 		<br>
-		Built With: Arduino, Wave Shield, Capacitive Touch Breakout Board
+		<i>Built With</i>: Arduino, Wave Shield, Capacitive Touch Breakout Board
 		<br>
 	</div>
 <!--break-->

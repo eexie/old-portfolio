@@ -18,9 +18,9 @@ description: ZED Styles is a new proposed small business, providing clients with
 		<br>
 		October 2014
 		<br>
-		Programs: Adobe Illustrator, Photoshop
+		<i>Programs:</i> Adobe Illustrator, Photoshop
 		<br>
-		Platform: Web & Print
+		<i>Platform:</i> Web & Print
 		<br>
 	</div>
 ZED Styles is a new proposed small business, providing clients with detailed, and customizable zipper accessories. ZED Styles' first product is ZED Pops, a zipper clip with customized graphics that covers the existing zipper tag. For the project, a business proposal was written, a prototype of the product was created, and mockups of the branding and website were designed.

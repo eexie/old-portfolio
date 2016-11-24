@@ -18,9 +18,9 @@ description: A burglar + a burger
 		<br>
 		May 2014
 		<br>
-		Materials: Watercolour, acrylic, pen, ink
+		<i>Materials:</i> Watercolour, acrylic, pen, ink
 		<br>
-		Dimensions: 20" x 28"
+		<i>Dimensions:</i> 20" x 28"
 		<br>
 	</div>
 A burglar + a burger.

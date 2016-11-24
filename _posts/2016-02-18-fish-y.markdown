@@ -16,7 +16,7 @@ description: A lighting fixture that exists in two states.
 	<div class="details">
 		June 2013
 		<br>
-		Materials: Rice paper, wire, candle wax, tissue paper, lighting kit
+		<i>Materials:</i> Rice paper, wire, candle wax, tissue paper, lighting kit
 		<br>
 	</div>
 A lighting fixture that exists in two states.

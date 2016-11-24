@@ -19,8 +19,8 @@ description: Homeline Bling is a hotline homeless people can call using a street
 		<br>
 		Jan 2016
 		<br>
-		Built With: Bootstrap, Django, Azure, Twilio, Google Maps API, GMaps
-		<br>Programs: Adobe Illustrator, Photoshop
+		<i>Built With</i>: Bootstrap, Django, Azure, Twilio, Google Maps API, GMaps<br>
+		<i>Programs:</i> Adobe Illustrator, Photoshop
 		<br>
 	</div>
 

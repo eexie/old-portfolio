@@ -18,9 +18,9 @@ description: Every year, the CyberARTS program hosts information nights about it
 		<br>
 		October 2014
 		<br>
-		Programs: Adobe Illustrator, Photoshop
+		<i>Programs:</i> Adobe Illustrator, Photoshop
 		<br>
-		Dimensions: 11" x 17"
+		<i>Dimensions:</i> 11" x 17"
 		<br>
 	</div>
 Every year, the CyberARTS program hosts information nights about its program. This brochure was designed for the event, targetting prospective students and future applicants of the program. My design was selected for the event, out of the 60 students and 60 designs.

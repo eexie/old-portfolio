@@ -16,7 +16,7 @@ description: A small collection of pieces from my sketchbook and other miscellan
 	<div class="details">
 		2011-Present
 		<br>
-		Programs & Materials: various
+		<i>Programs & Materials:</i> various
 		<br>
 	</div>
 A small collection of pieces from my sketchbook and other miscellaneous work over the past years.

@@ -20,8 +20,8 @@ description: DeepLearni is a fast growing machine learning startup specializing 
 		<br>
 		Feb 2016
 		<br>
-		Tools: JQuery, FullPage.js, Boostrap
-		Languages: HTML, CSS, JavaScript
+		<i>Tools:</i> JQuery, FullPage.js, Boostrap
+		<i>Languages:</i> HTML, CSS, JavaScript
 		<br>
 	</div>
 DeepLearni is a fast growing machine learning startup specializing in developing intelligent solutions for financial institutions. I had the pleasure of working with them during my first co-op placement, learning the basics of machine learning (some of my practice programs in ML architecture such as CNN, autoencoders can be found <a href="https://github.com/eexie/ML-exercises" target = "_blank"> here</a>). I also worked on updating their website, adding greater functionality and updating the design.

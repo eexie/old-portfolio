@@ -290,6 +290,7 @@ button:focus {
   display:inline;
   font-size:14px;
 }
+
 /* Main content */
 .main {
   position: relative;
@@ -337,7 +338,7 @@ button:focus {
 .action:visited{
   color:$grey-color;
 }
-.action:hover{
+.header .action:hover, .action:hover{
   color: $grey-color-dark;
   background-color:$grey-color;
 }
@@ -377,7 +378,7 @@ button:focus {
   padding:50px 10%;
   color:$grey-color;
   text-align: center;
-  font-family: $title-font-family;
+  /*font-family: $title-font-family;*/
 }
 .footer h2{
     // padding-bottom:10px; 
@@ -385,7 +386,7 @@ button:focus {
 .footer hr{
   width:150px; 
   margin:auto;
-  margin-bottom:50px;
+  margin-bottom:10px;
 }
 @media screen and (max-width: 1200px) {
   .about .side{
@@ -624,26 +625,20 @@ button:focus {
   padding:5px;
 }
 .topbar .toPort .backText{
-  /*display:none;*/
+  display:none;
   opacity: 0;
   position:absolute;
-  margin: 0 -47px;
-  margin-top:38px;
-  font-size: 12px;
     -webkit-transition: all 0.5s;
   transition: all 0.5s;
   display:inline;
+  text-transform: uppercase;
+  margin: 0 -47px;
+  margin-top:38px;
+  font-size: 12px;
 }
-
-.topbar .toPort:hover{
-  /*margin-right:80px;*/
-  .backText{
-    /*display:inline;*/
-    color:$brand-color;
-    opacity: 1;
-    /*margin: -23px 40px;*/
-  }
-
+.topbar .toPort:hover .backText{
+  color:$brand-color;
+  opacity: 1;
 }
 
 .category {
@@ -1251,5 +1246,99 @@ button:focus {
     display: none;
   }
 }
+/*
+ * Keyframes
+ */
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    animation-fill-mode: both;
+
+  }
+
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+  /** An element that fades in and slides down */
+  .scene_element--fadeindown {
+    animation-name: fadeInDown;
+  }
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    animation-name: fadeInRight;
+  }
+  .scene_element--fadeinleft {
+    animation-name: fadeInLeft;
+  }
+}
 /*# sourceMappingURL=style1.css.map */

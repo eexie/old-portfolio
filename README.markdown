@@ -1,4 +1,7 @@
 # [Portfolio] (https://eexie.github.io)
-Static pages served by [Jekyll] (http://jekyllrb.com/)
+Custom portfolio website. Project began Feburary 2016
 
-Grid animation from [this tutorial](http://tympanus.net/codrops/2015/04/15/grid-item-animation-layout/),everything custom designed by myself.
+### Resources
+* [Jekyll] (http://jekyllrb.com/) for serving the static pages
+* [Grid Animation Tutorial](http://tympanus.net/codrops/2015/04/15/grid-item-animation-layout/)
+* [SmoothState.js](https://github.com/miguel-perez/smoothState.js)

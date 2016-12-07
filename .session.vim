@@ -8,9 +8,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 .git/COMMIT_EDITMSG
-args .git/COMMIT_EDITMSG
-edit .git/COMMIT_EDITMSG
+badd +1 version
+args version
+edit version
 set splitbelow splitright
 wincmd t
 set winheight=1 winwidth=1
@@ -24,7 +24,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 11) / 22)
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt

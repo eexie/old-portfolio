@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Grid
+title: Blog
 permalink: /blog/
 ---
 

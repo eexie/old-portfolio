@@ -511,7 +511,7 @@ button:focus {
 .grid__item{
   padding:0;
   color: inherit;
-  background: $grey-color-light;
+  background: $grey-color-dark;
   background-size:cover;
   background-position: center center;
   background-repeat:no-repeat;
@@ -519,7 +519,14 @@ button:focus {
 .grid__title {
   padding: 45px 55px 30px;
   color: $grey-color;
-  background: #f2f2f2;
+  background: $background-color;
+  &:hover{
+    background-color: $grey-color-light;
+    color: $brand-color;
+  }
+}
+.blog-preview {
+  padding: 45px 55px 30px;
 }
 .overlay{
   width:100%;
@@ -783,17 +790,14 @@ button:focus {
   -webkit-filter: none;
   filter: none;
 }
-.grid__title:hover{
-  cursor:default;
-}
 .meta__date,
-.meta__reading-time {
+.meta__tags {
   display: block;
   float: left;
   color: #aaa;
 }
 
-.meta__reading-time {
+.meta__date {
   text-align: right;
   float: right;
 }

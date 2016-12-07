@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: Grid
+title: Portfolio
 permalink: /about/
 ---
 

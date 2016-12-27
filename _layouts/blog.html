@@ -7,7 +7,7 @@
 	    	<div class="main"id="theGrid" >
 				<section class="grid">
 					<div class="page-meta" id = "hardware">
-						<h3 ><b>The most infrequent blog in the world</b></h3>
+						<h3 ><b>The Blog</b></h3>
 						<p>Random thoughts, adventures, and photographic experiments</p>
 						
 					</div>
@@ -19,7 +19,7 @@
 									<h2 class="title title--preview">{{ post.title }}</h2>
 									<div class="loader"></div>
 									<br><br><br><br>
-									<em>{{post.excerpt | strip_html | truncatewords:10 }}</em>
+									<em>{{post.excerpt | strip_html | truncatewords:15 }}</em>
 									<br><br><br>
 									<div class="meta meta--preview">
 										<span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
@@ -33,13 +33,12 @@
 
 						<a class="grid__item" href="{{ post.url }}" >
 							<div class="blog-preview">
-								<br><br><br>
 								<h2 class="title title--preview"> {{ post.title }}</h2>
-								<br><br><br>
+								<br>
 								<div class="loader"></div>
+								<br>
+								<em>{{post.excerpt | strip_html | truncatewords:15 }}</em>
 								<br><br>
-								<em>{{post.excerpt | strip_html | truncatewords:10 }}</em>
-								<br><br><br>
 								<div class="meta meta--preview">
 									<span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
 									<span class="meta__tags">{{post.tags}}</span>

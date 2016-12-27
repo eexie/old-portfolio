@@ -1,8 +1,8 @@
 ---
 layout: blog-post
 title:  Hello World!
-permalink:   /:categories/:title.html
-tags: Nutrition
+permalink:   /:categories/:title
+thumb: cake-main.png
 ---
 
 Primitive man is known to us by the stages of development through which he has passed: that is, through the inanimate monuments and implements which he has left behind for us, through our knowledge of his art, his religion and his attitude towards life, which we have received either directly or through the medium of legends, myths and fairy tales; and through the remnants of his ways of thinking that survive in our own manners and customs. 

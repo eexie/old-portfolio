@@ -38,7 +38,7 @@ layout: default
           {% endif %}
         {% endfor %}
 
-        {% for post in site.posts reversed limit: 4%}
+        {% for post in site.posts reversed limit: 3%}
           {% if post.categories contains 'work' %}
           <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
             <div class="overlay">
@@ -81,7 +81,7 @@ layout: default
     </div>
   </div> 
 
-<!--   <div class="section" id="blog">
+  <div class="section" id="blog">
     <h2>
         <h2 class="title" href="#">BLOG</h2>
       </h2>
@@ -133,7 +133,7 @@ layout: default
       </section>
       <br><br>
     </div>
-  </div>   -->
+  </div>  
 
   <div class="footer" id="contact">
     <h2>

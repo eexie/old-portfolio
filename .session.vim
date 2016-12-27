@@ -8,9 +8,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 version
-args version
-edit version
+badd +0 blog/_posts/2016-12-26-first-post.md
+argglobal
+silent! argdel *
+argadd blog/_posts/2016-12-26-first-post.md
+edit blog/_posts/2016-12-26-first-post.md
 set splitbelow splitright
 wincmd t
 set winheight=1 winwidth=1
@@ -24,11 +26,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 13) / 27)
+let s:l = 28 - ((12 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+28
 normal! 0
 tabnext 1
 if exists('s:wipebuf')

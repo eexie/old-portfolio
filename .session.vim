@@ -8,11 +8,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 blog/_posts/2016-12-26-first-post.md
+badd +0 work/_posts/2016-02-15-vr-camera-sim.markdown
 argglobal
 silent! argdel *
-argadd blog/_posts/2016-12-26-first-post.md
-edit blog/_posts/2016-12-26-first-post.md
+argadd work/_posts/2016-02-15-vr-camera-sim.markdown
+edit work/_posts/2016-02-15-vr-camera-sim.markdown
 set splitbelow splitright
 wincmd t
 set winheight=1 winwidth=1
@@ -26,12 +26,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 28 - ((12 * winheight(0) + 11) / 22)
+let s:l = 28 - ((10 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 28
-normal! 0
+normal! 07|
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf

@@ -5,6 +5,7 @@ categories: hardware
 tag: VR Development, 3D modelling
 featured: true
 thumb: vr.png
+permalink: /:categories/:title
 description: A VR game supported on the Oculus Touch and Vive, allowing users to interact and use virtual Canon cameras and lenses.
 ---
 
@@ -34,4 +35,8 @@ description: A VR game supported on the Oculus Touch and Vive, allowing users to
 
 </div>
 <div class="images">
+    <img src="http://img06.deviantart.net/c99e/i/2017/011/e/9/capture2_by_eexie-dav1wpq.png">
+    <img src="http://orig13.deviantart.net/4db7/f/2017/011/e/4/24_105_animation_by_eexie-dav1wku.gif">
+    <img src="http://img01.deviantart.net/d826/i/2017/011/4/3/24_105_f4_v13_2_by_eexie-dav1wj1.png">
+    <img src="http://img07.deviantart.net/003f/i/2017/011/7/e/50mm_f1_4_v21_by_eexie-dav1wip.png">
 </div>

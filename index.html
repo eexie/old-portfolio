@@ -17,9 +17,7 @@ layout: default
   </div> 
 
   <div class="section" id="portfolio">
-    <h2>
-        <h2 class="title" href="#">PORTFOLIO</h2>
-      </h2>
+    <h3 class="title" href="#">PORTFOLIO</h3>
     <div id="theGrid">
       <section class="grid">
         {% for post in site.posts reversed %}
@@ -38,7 +36,7 @@ layout: default
           {% endif %}
         {% endfor %}
 
-        {% for post in site.posts reversed limit: 3%}
+        {% for post in site.posts reversed limit: 2%}
           {% if post.categories contains 'work' %}
           <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
             <div class="overlay">
@@ -63,9 +61,7 @@ layout: default
   </div>  
 
   <div class="section" id="about">
-    <h2>
-      <h2 class="title" href="#">ABOUT</h2>
-    </h2>
+    <h3 class="title" href="#">ABOUT</h3>
     <div class="about">
       <div class="about-inner">
         <div class="image"></div>
@@ -82,9 +78,7 @@ layout: default
   </div> 
 
   <div class="section" id="blog">
-    <h2>
-        <h2 class="title" href="#">BLOG</h2>
-      </h2>
+    <h3 class="title" href="#">BLOG</h3>
     <div id="theGrid" >
       <section class="grid">
           {% for post in site.categories.blog %}
@@ -136,15 +130,13 @@ layout: default
   </div>  
 
   <div class="footer" id="contact">
-    <h2>
-          <h2 class="title" href="#">CONTACT</h2>
+     <h3 class="title" href="#">CONTACT</h3>
           <p><br><i>Say hi!</i> I love meeting new people and learning new things. </i><br><h3><a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</h3  ><br><br>
             <hr>
             
             
             
             <a href="https://github.com/eexie" target="_blank">GITHUB</a> | <a href="http://devpost.com/exme"target="_blank">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie"target="_blank">LINKEDIN</a> | <a href="https://twitter.com/_eexie"target="_blank">TWITTER</a>
-        </h2>
   </div>   
 
 </div>

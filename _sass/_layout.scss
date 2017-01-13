@@ -198,6 +198,7 @@ button:focus {
 
 .sidebar h1 {
   margin: 0.75em 5px 0;
+  font-weight: 500;
   font-size: 1em;
   line-height: 1;
   color:#fff;
@@ -574,6 +575,9 @@ button:focus {
 .title--preview {
   -webkit-flex: 1;
   flex: 1;
+  font-weight:200;
+  font-size: 1.5em;
+  margin: 0.5em 0;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -878,9 +882,10 @@ button:focus {
   font-weight:bold;
 
 }
-.page-meta h3{
+h3{
   font-size:24px;
   color:$brand-color;
+  text-transform: uppercase;
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */

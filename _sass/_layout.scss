@@ -263,6 +263,7 @@ button:focus {
     color: $grey-color;
     -webkit-transition: -webkit-color 0.2s;
     transition: color 0.2s;
+    font-weight: 200;
 }
  .related .menu-item .sub-menu a:hover{
     color: $brand-color;

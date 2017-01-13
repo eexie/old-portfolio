@@ -18,7 +18,7 @@ description: Building an Arduino-driven guitar with a laser-cut wooden body and 
 	<div class="details">
 		Arduino prototyping
 		<br>
-		Jan 2016-Present
+		Nov 2016-Present
 		<br>
 		<i>Built With</i>: Arduino, Wave Shield, Capacitive Touch Breakout Board
 		<br>

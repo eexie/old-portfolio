@@ -7,9 +7,9 @@
 	    	<div class="main scene_element scene_element--fadeinup" id="theGrid" >
 				<section class="grid">
 					
-					<div class="page-meta" id = "hardware">
-						<h3 ><b>Hardware Projects</b></h3>
-						<p>Electrical and mechanical projects</p>
+					<div class="page-meta" id = "tron">
+						<h3 ><b>Mechatronics Projects</b></h3>
+						<p>Projects integrating software and hardware. </p>
 						
 					</div>
 					{% for post in site.categories.hardware reversed%}
@@ -27,12 +27,13 @@
 					{% endfor %}
 					
 <!--SOFTWARE-->
+<!--
 					<div class="page-meta" id = "software">
 						<h3 ><b>Software Projects</b></h3>
 						<p>Projects developed for web, mobile, and everything in between</p>
 						
 					</div>
-					
+-->				
 					{% for post in site.categories.software reversed%}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">

@@ -12,7 +12,7 @@
 						<p>Projects integrating software and hardware. </p>
 						
 					</div>
-					{% for post in site.categories.hardware reversed%}
+					{% for post in site.categories.hardware %}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
 						<div class="overlay">

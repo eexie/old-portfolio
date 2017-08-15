@@ -2,7 +2,7 @@
 layout: post
 title:  Science Expo
 date:   2016-02-18 13:05:49 -0500
-categories:  software
+categories:  design 
 tag: web & branding
 permalink:   /:categories/:title.html
 thumb: se-main.png
@@ -21,12 +21,13 @@ description: Science Expo is the largest student-run organization in Canada, con
 		June 2014-July 2015
 		<br>
 		<i>Tools:</i> Bootstrap, JQuery, Mailchimp
+        <br>
 		<i>Programs:</i> Adobe Illustrator, Photoshop
 		<br>
 	</div>
 Science Expo is the largest student-run organization in Canada, connecting youth to the STEM (Science, Technology, Engineering, and Mathematics) community. Since sumer 2014, I have been working with them as the site developer and graphic designer. 
 
-<br><br>This July, I redesigned and built the main website (over the course of one weekend): <a href="http://science-expo.org/" target="_blank"> science-expo.org </a>.
+<br><br>In July 2015, I redesigned and built the main website (over the course of one weekend): <a href="http://science-expo.org/" target="_blank"> science-expo.org </a>.
 
 
 

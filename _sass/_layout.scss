@@ -184,7 +184,7 @@ button:focus {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: #536263;
+  background: $brand-color;
   position: fixed;
   width: 80px;
   max-width: 100%;
@@ -331,18 +331,18 @@ button:focus {
   text-align:center;
   padding:10px 20px;
   margin:0 10px;
-  border: 2px $grey-color solid;
-  color: $grey-color;
+  border: 2px $brand-color solid;
+  color: $brand-color;
   background-color:transparent;
   -webkit-transition: -webkit-all 0.2s;
     transition: all 0.2s;
 }
 .action:visited{
-  color:$grey-color;
+  color:$brand-color;
 }
 .header .action:hover, .action:hover{
   color: $grey-color-dark;
-  background-color:$grey-color;
+  background-color:$brand-color;
 }
 .about{
   padding:0 80px;
@@ -576,7 +576,8 @@ button:focus {
 .title--preview {
   -webkit-flex: 1;
   flex: 1;
-  font-weight:200;
+  font-weight:400;
+  font-style:italic;
   font-size: 1.5em;
   margin: 0.5em 0;
   display: -webkit-flex;
@@ -595,7 +596,10 @@ button:focus {
   position: relative;
   background: rgba(0, 0, 0, 0.1);
 }
-
+.tags {
+    text-transform: uppercase;
+    font-weight:200;
+}
 .loader::before {
   content: '';
   position: absolute;

@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: vim 2016-12-26-first-post.md
+title: test
 permalink: /:categories/:title
 tags: misc
 ---
@@ -19,7 +19,7 @@ In order to hold myself accountable for updating this blog, I'll list a few topi
 
 1. Sharing some shots from my first roll of 35mm film that I shot over the past month
 2. Recounting CFES Congress, which I will attend next week
-3. Reflecting on my recently completed second co-op, at the Canon Innovation Lab
+3. How this portfolio site and blog was made
 
 Congratulations to both you and me for making it this far. Hopefully there will be more of this soon. 
 

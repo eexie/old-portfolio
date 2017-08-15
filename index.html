@@ -9,20 +9,19 @@ layout: default
       <img src="/images/logo.png">
       <h1>EMMA XIE</h1>
       <hr width="150px" style="margin:20px auto;">
-      <p> I'm a 3rd year <b>Mechatronics Engineering</b> student at the University of Waterloo. <br>Take a look around <i><a href="#portfolio">my portfolio</a></i>, read more <i><a href="#about">about me</a></i>, and <i><a href="#contact">say hello!</a></i></p>
+      <p> I'm a 2nd year <b>Mechatronics Engineering</b> student at the University of Waterloo. <br>Take a look around <i><a href="#portfolio">my portfolio</a></i>, read more <i><a href="#about">about me</a></i>, and <i><a href="#contact">say hello!</a></i></p>
       <br><br>
       <a class="action" href="#portfolio">PORTFOLIO</a>
       <a class="action" href="{{ site.baseurl }}/resume.pdf" target="_blank">&nbsp;&nbsp;RESUME&nbsp;&nbsp;</a>
     </div>
-  </div> 
+  </div>
 
   <div class="section" id="portfolio">
     <h3 class="title" href="#">PORTFOLIO</h3>
     <div id="theGrid">
       <section class="grid">
-        {% for post in site.posts limit 7%}
+        {% for post in site.posts  %}
           {% if post.featured == true %}
-            
           <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
             <div class="overlay">
               <h2 class="title title--preview">{{ post.title }}</h2>
@@ -31,11 +30,9 @@ layout: default
               <p class="short-description">{{ post.description | truncatewords:15   }}</p>
               <span class="category">Read More &nbsp &rarr;<br><br><br></span>
             </div>
-            
           </a>
           {% endif %}
         {% endfor %}
-       
       <a class="grid__title" href="{{ site.baseurl }}/portfolio/">
         <h2 class="title title--preview"><br><br>View All</h2>
         <div class="loader"></div>

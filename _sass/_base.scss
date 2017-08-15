@@ -40,7 +40,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+h1, h2{
+    color:$brand-color;
 
+}
 
 /**
  * Images
@@ -90,7 +93,7 @@ h2{
  * Links
  */
 a {
-    color: $brand-color;
+    color: $brand-color-dark;
     text-decoration: none;
     outline: none;
     transition: all 0.3s ease-in-out;
@@ -220,7 +223,7 @@ pre {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: $grey-color;
+  background: $brand-color;
   z-index: 1000;
   position: fixed;
   width: 48px;
@@ -245,24 +248,4 @@ pre {
   display: block;
 }
 
-.related {
-  margin-top:20vh;
-  font-size: 0.85em;
-  padding-bottom: 1em;
-}
-
-.related h3 {
-  margin: 3em 0 0.5em 0;
-  font-size: 0.95em;
-}
-
-.related a {
-  display: block;
-  color: #fff;
-}
-
-.related a:hover,
-.related a:focus {
-  color: #414741;
-}
 

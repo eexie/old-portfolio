@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Balsa Wood Truss 
-date:   2016-02-18 13:05:49 -0500
+date:   2017-03-08 13:05:49 -0500
 categories:  hardware
 tag: mechanical design & analysis 
 permalink:   /:categories/:title

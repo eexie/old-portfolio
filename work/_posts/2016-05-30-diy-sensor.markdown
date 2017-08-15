@@ -1,13 +1,12 @@
 ---
 layout: post
-title: VR Camera Simulator
-date: 2017-04-08 13:05:49 -0500
+title: DIY distance sensor
+date: 2016-01-08 13:05:49 -0500
 categories: hardware
-tag: VR Development, 3D modelling
-featured: true
+tag: Mechanical machining & prototype
 thumb: vr.gif
 permalink: /:categories/:title
-description: A VR game supported on the Oculus Touch and Vive, allowing users to interact and use virtual Canon cameras and lenses.
+description: A simple coin thickness sensor using a bolt
 ---
 
 <div class="description">

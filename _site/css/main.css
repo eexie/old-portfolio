@@ -319,7 +319,7 @@ button:focus {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: #E9B000;
+  background: #565656;
   position: fixed;
   width: 80px;
   max-width: 100%;

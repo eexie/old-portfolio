@@ -48,8 +48,10 @@ layout: default
       <div class="about-inner">
         <div class="image"></div>
         <div class="side text">
-            <p>I am a Toronto-based student currently studying Mechatronics Engineering at the University of Waterloo. My interests and experiences vary from hardware prototyping, web development, and virtual reality, to robotics and graphic design. I have special interests in emerging technologies and interactive technological experiences. <br><br>I am currently on my fourth coop term at <a href="https://www.autonomoose.net/" target="_blank">Autonomoose</a> (a University of Waterloo autonomoose vehicles research project)
-                Previously, I have worked Innovation Developer roles at the <a href="https://canonlabs.io" target="_blank">Canon Innovation Lab</a> and Scotiabank, and as a System Design Engineer at  <a href="http://www.evertz.com/">Evertz Microsystems</a>. I am currently looking for <b>internship opportunities</b> in prototyping and software engineering for <b>Spring 2019</b> (January-September). </p>
+            <p>I am a Toronto-based student studying Mechatronics Engineering at the University of Waterloo (class of 2020). 
+                My interests and experiences vary from hardware prototyping, web development, and virtual reality, to robotics and graphic design. 
+                I have special interests in interactive technological experiences and realising the role engineering plays in society. 
+                <br><br>I am currently seeking an <strong>8-month coop/internship starting January 2019.</strong> 
           <br>
           <br>
 
@@ -59,12 +61,11 @@ layout: default
       </div>
     </div>
   </div> 
-<!--
   <div class="section" id="blog">
     <h3 class="title" href="#">BLOG</h3>
     <div id="theGrid" >
       <section class="grid">
-          {% for post in site.categories.blog %}
+          {% for post in site.categories.blog limit:3 %}
             {% if post.thumb %}
             <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
               <div class="overlay ">
@@ -80,10 +81,8 @@ layout: default
                   </div>
                 </div>
               </div>
-              
             </a>
             {% else %}
-
             <a class="grid__item" href="{{ post.url }}" >
               <div class="blog-preview">
                 <br><br><br>

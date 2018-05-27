@@ -6,7 +6,6 @@ categories:  hardware
 tag: arduino powered guitar
 permalink:   /:categories/:title
 thumb: guitar-main.png
-featured: true
 description: Building an Arduino-driven guitar with a laser-cut wooden body and capacitive touch sensors.
 ---
 

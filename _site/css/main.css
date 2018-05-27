@@ -34,8 +34,11 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
 
-h1, h2 {
+h1 {
   color: #E9B000; }
+
+h2 {
+  color: #7a7a7a; }
 
 /**
  * Images
@@ -355,12 +358,12 @@ button:focus {
   position: relative;
   color: #fff;
   width: 50%;
+  padding: 30px 0;
   margin: 20px auto; }
 
 .related .menu-item {
   width: 80px;
-  padding: 0 1em;
-  margin-top: 80px; }
+  padding: 0 1em; }
 
 .related .menu-item .sub-menu {
   position: absolute;
@@ -376,6 +379,9 @@ button:focus {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   transition: opacity 0.2s ease-in-out; }
+
+.related .menu-item .sub-menu a {
+  padding: 0; }
 
 .related .menu-item .sub-menu h2 {
   font-size: 28px; }
@@ -431,11 +437,11 @@ button:focus {
 .header {
   padding: 8vw;
   text-align: center;
-  min-height: 100vh; }
+  min-height: 90vh; }
 
 .header-inner {
   background-color: #f2f2f2;
-  padding: 100px 0;
+  padding: 50px 0;
   height: 100%; }
 
 .header img {
@@ -668,8 +674,7 @@ button:focus {
 .title--preview {
   -webkit-flex: 1;
   flex: 1;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 600;
   font-size: 1.5em;
   margin: 0.5em 0;
   display: -webkit-flex;

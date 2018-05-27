@@ -6,7 +6,6 @@ categories:  software
 tag: web development & marketing
 permalink:   /:categories/:title.html
 thumb: deeplearni-main.png
-featured: true
 description: DeepLearni is a fast growing machine learning startup specializing in developing intelligent solutions for financial institutions. I had the pleasure of working with them during my first co-op placement
 ---
 

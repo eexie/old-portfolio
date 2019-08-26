@@ -6,8 +6,7 @@ categories:  hardware
 tag: prototyping
 permalink:   /:categories/:title
 thumb: plotter-main.png
-featured: true
-description: Dry Erase Plotter is a low energy alternative to the excessive monitors financial companies use to display market data
+description: A low energy alternative to the excessive monitors financial companies use to display market data
 ---
 
 <div class="description">

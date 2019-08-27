@@ -90,18 +90,25 @@ h1{
 h2{
   font-size:32px;
 }
+h6 {
+    color: $grey-color-2;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 3;
+
+}
 
 
 /**
  * Links
  */
 a {
-    color: $brand-color-dark;
+    color: darken($brand-color, 8%);
     text-decoration: none;
     outline: none;
     transition: all 0.3s ease-in-out;
     &:visited {
-        // color: darken($brand-color, 15%);s
+        // color: darken($brand-color, 15%);
     }
 
     &:hover {

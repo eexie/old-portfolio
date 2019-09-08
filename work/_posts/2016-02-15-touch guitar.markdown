@@ -5,8 +5,9 @@ date:   2016-02-18 13:05:49 -0500
 categories:  hardware
 tag: arduino powered guitar
 permalink:   /:categories/:title
+featured: false
 thumb: guitar-main.png
-description: Building an Arduino-driven guitar with a laser-cut wooden body and capacitive touch sensors.
+description: Arduino-powered guitar with a laser-cut wooden body and capacitive touch sensors.
 ---
 
 <div class="description">
@@ -17,13 +18,13 @@ description: Building an Arduino-driven guitar with a laser-cut wooden body and 
 	<div class="details">
 		Arduino prototyping
 		<br>
-		Nov 2016-Present
+		Nov 2016-Jan 2017
 		<br>
 		<i>Built With</i>: Arduino, Wave Shield, Capacitive Touch Breakout Board
 		<br>
 	</div>
 <!--break-->
-Building an Arduino-driven guitar with a laser-cut wooden body, and capacitive touch sensors.
+An Arduino-driven guitar with a laser-cut wooden body, and capacitive touch sensors.
 An audio file plays while strings are touched, transforming any user into an amazing guitar “player”
 <!--break-->
 <br>

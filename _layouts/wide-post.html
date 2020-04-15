@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="topbar">
+	{% if page.previous %}{% unless page.previous.categories contains 'blog' %}
+	<a href="{{page.previous.url}}">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	{% endunless %}{% endif %}
+
+	{% if page.previous and page.next %}
+	
+	{% endif %}
+	<a class="toPort " href="{{site.baseurl}}/portfolio"><img src="{{site.baseurl}}/images/topbar-portfolio.png"/><div class="backText">BACK TO ALL</div></a>
+	{% if page.next %}{% unless page.next.categories contains 'blog' %}
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="{{page.next.url}}" style="margin-left:-5px">&rarr;</a>
+	{% endunless %}{% endif %}
+</div>
+<article class="content__item content__item--show">
+  <h2 class="title title--full">{{ page.title }}</h2>
+  <div class="post-content scene_element scene_element--fadein" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>

@@ -12,6 +12,18 @@
 						<p>Projects integrating software and hardware. </p>
 						
 					</div>
+<!-- 					{% for wide-post in site.categories.hardware %}
+					<a class="grid__item" href="{{ wide-post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{wide-post.thumb}})">
+						<div class="overlay">
+							<h2 class="title--preview">{{ wide-post.title }}</h2>
+							<div class="loader"></div>
+							<p class="tags"> {{ wide-post.tag}}</p>
+							<p class="short-description">{{ wide-post.description | truncatewords:15 }}</p>
+							<span class="category">Read More &nbsp &rarr;<br><br><br><br></span>
+						</div>
+						
+					</a>
+					{% endfor %} -->
 					{% for post in site.categories.hardware %}
 					
 					<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
@@ -19,7 +31,7 @@
 							<h2 class="title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
 							<p class="tags"> {{ post.tag}}</p>
-							<p class="short-description">{{ post.description | truncatewords:15 }}</p>
+							<p class="short-description">{{ post.description | truncatewords:25 }}</p>
 							<span class="category">Read More &nbsp &rarr;<br><br><br><br></span>
 						</div>
 						
@@ -41,7 +53,7 @@
 							<h2 class="title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
 							<p class="tags">{{ post.tag}} </p>
-                            <p class="short-description">{{ post.description | truncatewords:15  }}</p>
+                            <p class="short-description">{{ post.description | truncatewords:25  }}</p>
 							<span class="category">Read More &nbsp &rarr;<br><br><br><br></span>
 						</div>
 						
@@ -62,7 +74,7 @@
 							<h2 class="title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
 							<p class="tags"> {{ post.tag}} </p>
-                            <p class="short-description">{{ post.description | truncatewords:15  }}</p>
+                            <p class="short-description">{{ post.description | truncatewords:25  }}</p>
 							<span class="category">Read More &nbsp &rarr;<br><br><br><br></span>
 
 						</div>
@@ -83,7 +95,7 @@
 							<h2 class="title--preview">{{ post.title }}</h2>
 							<div class="loader"></div>
 							<p class="tags">{{ post.tag}} </p>
-                            <p class="short-description">{{ post.description | truncatewords:15  }}</p>
+                            <p class="short-description">{{ post.description | truncatewords:25  }}</p>
 							<span class="category">Read More &nbsp &rarr;<br><br><br><br></span>
 						</div>
 						

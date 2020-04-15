@@ -1,0 +1,91 @@
+---
+layout: wide-post
+title: Ada - The Breast Pumping Companion
+date:   2019-03-19 13:05:49 -0500
+categories: hardware
+tag: Mobile UX/UI
+permalink:   /:categories/:title
+featured: true
+thumb: ada-main.png
+description: Design of a mobile application to improve the breast pumping experience for working mothers through intuitive controls and access to community support
+---
+
+<!-- <center> <h1> Ada - The Breast Pumping Companion </h1></center> -->
+<div class="wide-details">
+	Mobile Application UX/UI Design
+	<br>
+	January - April 2020
+	<br>
+	<i>Built With</i>: Figma, Balsamiq, Flutter, Android Studio, Firebase
+	<br>
+</div>
+
+The design of this mobile application was done as part of my final year design project. The topic of my fourth year design project, done in collaboration with three other graduating mechatronics engineering students, was to improve the breast pumping experience for working mothers. 
+
+![Ada overview]({{site.url}}/images/work/ada/ada_overview.png){:width="100%" style="display: block; margin: 0 auto"}
+
+Through user interviews, literature review and collaboration with the MIT media lab, we found that the current breast-pumping experience is immensely stressful, uncomfortable, and isolating for busy working mothers. For mothers who choose to work and breastfeed, they rely on archaic breast pumps that have barely been innovated in the last 50 years. Mothers are forced to make a sacrifice between putting their baby’s developmental health or their career first. Ada challenges this notion, empowering mothers to prioritize both their maternal and career choices.
+
+![Problem overview]({{site.url}}/images/work/ada/problem_overview.jpg){:width="80%" style="display: block; margin: 0 auto"}
+
+<!--problem slide-->
+
+#### DESIGN GOAL
+Improve the breast pumping experience for working mothers with a mobile application that connects to a better breast pump, and offers community support. The mobile application offers:
+1. Provide Intuitive controls to reduce the stressful experience with breast pumping
+2. Help mothers form a community and reduce feelings of isolation with access to professional support and relevant content
+3. Serve smart recommendations based on data collection in a non-stressful way to preventatively monitor mother’s health
+
+#### SOLUTION
+The application has three main aspects: 
+1. A “Home” tab provides the mother a high level overview and a natural entry point into other features of the app
+2. The “My Ada” tab provides mother intuitive controls to the pump device. 
+3. The “Connect” tab connects mothers to local lactation consultants and local events. 
+I had design ownership of the “My Ada” and “Connect” tabs, with the “Home” tab designed by another team member.
+
+##### USER REQUIREMENTS GATHERING
+User requirements gathering was conducted through competitor analysis and interviews. 50 interviews conducted by the MIT Media Lab were analyzed to form the target user group of career-focused mothers aged 25-40.
+
+![Persona]({{site.url}}/images/work/ada/persona.jpg){:width="48%"}  ![user survey]({{site.url}}/images/work/ada/user_survey.png){:width="48%"}
+
+There are a number of breast pumping applications on the market, based on competitor analysis. The main competitors include the MyMedela app for Medela pumps, iFeed, and Pumplog. Some offer features such as manual logging, and some offer on-demand access to lactation consultants, but none offer a holistic experience. None of the competitors offer data insights or similar data-driven features, despite a user survey we conducted with 50 new mothers, which shows an overwhelming user demand for smart recommendations.
+
+##### EARLY DESIGN PROCESS
+
+![User Flow]({{site.url}}/images/work/ada/user_flow.png){:width="25%" style="display: block; margin: 0 auto"}
+
+The user flow for the “My Ada” tab is a basic sequential structure, and mostly linear. Few actions are provided to the user, to provide a straightforward experience, minimizing cognitive load and stress. This allows the mother to better focus on the task of pumping.
+
+![Card Sorting 1]({{site.url}}/images/work/ada/cardsorting1.png){:width="48%"}  ![Card Sorting 2]({{site.url}}/images/work/ada/cardsorting2.png){:width="48%"}
+
+Early design iterations were done using the card sorting method. They were then moved to wireframes built using Balsamiq.
+
+![Wireframe 1]({{site.url}}/images/work/ada/wireframe1.png){:width="80%" style="display: block; margin: 0 auto"}  ![wireframe 2]({{site.url}}/images/work/ada/wireframe2.png){:width="80%" style="display: block; margin: 0 auto"}
+
+Medium fidelity mockups were developed in Figma, first in grayscale to focus on composition and developing end-to-end user flow.
+
+![Grayscale]({{site.url}}/images/work/ada/greyscale.png){:width="80%" style="display: block; margin: 0 auto"}
+
+Color and fonts were then explored. A monochrome teal color scheme was selected for a relaxing feel, and to be subversive to the typical “fem-tech” color schemes.
+
+![Color1]({{site.url}}/images/work/ada/color1.png){:width="80%" style="display: block; margin: 0 auto"}
+
+![Color2]({{site.url}}/images/work/ada/color2.png){:width="80%" style="display: block; margin: 0 auto"}
+
+![color and font palette]({{site.url}}/images/work/ada/color_font.png){:width="80%" style="display: block; margin: 0 auto"}
+
+##### PROTOTYPE ITERATION 1
+
+![Iteration 1]({{site.url}}/images/work/ada/iteration1.png){:width="100%" style="display: block; margin: 0 auto"}
+<br><br>
+
+##### FINAL PROTOTYPE
+
+![Iteration 2]({{site.url}}/images/work/ada/iteration2.png){:width="100%" style="display: block; margin: 0 auto"}
+
+#### EVALUATION
+Prototypes were tested with 2 users through user interviews. The <a href="{{site.url}}/images/work/ada/testing_protocol.pdf" target="_blank">testing protocol and results</a> are detailed here. The testing shows that the application flow is straightforward enough, with acceptable usability. 
+
+The “My Ada” flow was noted to be clean, and easier to use than using the pump’s on-device buttons. A less stressful pumping experience was achieved, and more testing needs to be done with mothers, the target user group. The framework for the smart recommendations was interesting to users, but need to be tested with lactation consultants for targeted results. The “My Ada” flow provides important data for the backend data analytics, but requires manual input. These friction points need to be reconsidered and be well communicated to the user to avoid the confusion observed in testing. 
+
+![Banner]({{site.url}}/images/work/ada/ada_banner.png){:width="100%" style="display: block; margin: 0 auto"}
